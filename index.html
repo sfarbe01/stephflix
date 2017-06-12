@@ -9,7 +9,7 @@
   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
   <script src="js/sorts.js"></script>
   <script src="js/allmedia.js"></script>
-   <title>CSS MenuMaker</title>
+   <title>STEPHFLIX</title>
 </head>
 <body>
 <div id='cssmenu'>
@@ -22,9 +22,10 @@
 <div id='cssmenu2'>
 <ul>
    <li class='active'><a href='#'><span>Sorts</span></a></li>
-   <li><a href='#'><span>By Year</span></a></li>
-   <li><a href='#'><span>By Stephlix Rating</span></a></li>
-   <li class='last'><a href='#'><span>Rotten Tomatoes Rating</span></a></li>
+    <li><a onclick="sortName(event)"><span>A/Z</span></a></li>
+   <li><a onclick="sortRottenRating(event)"><span>By Stephlix Rating</span></a></li>
+   <li class='last'><a onclick="sortRottenRating(event)"><span>Rotten Tomatoes Rating</span></a></li>
+  <li><a href='#'><span>By Year</span></a></li>
 </ul>
 </div>
 <div id='cssmenu3'>
@@ -36,11 +37,58 @@
    <li class='last'><a href='#'><span>Other</span></a></li>
 </ul>
 </div>
-  
-  <button onclick="sortByYear(event)">Sort by Date</button>
 <div class="media">
   <div class="boxes" id="all-the-movies">
 </div>
-</div>  
+</div> 
+  <h2>Sort News</h2>
+<select name="sort-news" id="sort-news">
+	<option value="All">All news</option>
+	<option value="Cat1">Category 1</option>
+	<option value="Cat2">Category 2</option>
+	<option value="Cat3">Category 3</option>
+</select> 
+<hr />
+<section class="news-list">
+  <article class="news-item" data-category="Cat1">
+	<div class="thumb">
+		<img alt="Our ALT text here" title="Our title here" src="http://placehold.it/150x150">
+	</div>
+	<div class="news-txt">
+		<h3><a href="">A news title</a></h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+	</div>
+</article>
+<article class="news-item" data-category="Cat2">
+	<div class="thumb">
+		<img alt="Our ALT text here" title="Our title here" src="http://placehold.it/150x150">
+	</div>
+	<div class="news-txt">
+		<h3><a href="">A news title</a></h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+	</div>
+</article>
+<article class="news-item" data-category="Cat3">
+	<div class="thumb">
+		<img alt="Our ALT text here" title="Our title here" src="http://placehold.it/150x150">
+	</div>
+	<div class="news-txt">
+		<h3><a href="">A news title</a></h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+	</div>
+    </article>
+  </section>
+<header>
+  <h2>A filtering component with CSS and jQuery<br>(with zoom animation)</h2>
+</header>
+
+<div class="cta filter">
+  <a class="all active" data-filter="all" href="#" role="button">Show All</a>
+  <a class="green" data-filter="green" href="#" role="button">Show Green Boxes</a>
+  <a class="blue" data-filter="blue" href="#" role="button">Show Blue Boxes</a>
+  <a class="red" data-filter="red" href="#" role="button">Show Red Boxes</a>
+</div>
+
+
 </body>
 <html>

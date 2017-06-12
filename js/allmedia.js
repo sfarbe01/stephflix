@@ -3,47 +3,36 @@ var media = [
     "name": "GoT",
     "posterImage": "images/got.jpg",
     "movieTitle": "Game of Thrones",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
+    "rtRating": 95,
+    "myRating": 0,
+    "synopsis": "An adaptation of author George R.R. Martin's 'A Song of Ice and Fire' medieval fantasies about power struggles among the Seven Kingdoms of Westeros.",
+    "recommendations": "",
+    "platform": "HBO Go",
+    "cast": "",
     "releasedate": "04/17/2011"
   },
   {
     "name": "13reasonswhy",
     "posterImage": "images/13reasons.jpg",
     "movieTitle": "13 Reasons Why",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 86,
+    "myRating": 0,
+    "synopsis": "The late Hannah Baker explains why she committed suicide to her high school peers through a collection of cassette tapes she left behind.",
     "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
+    "recommendations": "",
+    "platform": "Netflix",
+    "cast": "",
     "releasedate": "03/31/2017"
-  },
-  {
-    "name": "Animals",
-    "posterImage": "images/animals.jpg",
-    "movieTitle": "Animals",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": "02/05/2016"
   },
   {
     "name": "Atlanta",
     "posterImage": "images/atlanta.jpg",
     "movieTitle": "Atlanta",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
+    "rtRating": 100,
+    "myRating": 0,
+    "synopsis": "In Season 1 of this comedy series, two cousins try to work their way up through the Atlanta hip hop scene.",
     "recommendations": "If you like this watch...",
-    "platform": "",
+    "platform": "FX",
     "cast": "Jenny Slate, Jay Duplass",
     "releasedate": "09/16/2016"
   },
@@ -51,73 +40,73 @@ var media = [
     "name": "Black-ish",
     "posterImage": "images/blackish.jpg",
     "movieTitle": "Black-ish",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
+    "rtRating": 93,
+    "myRating": 0,
+    "synopsis": "A successful family man worries that his four children are losing touch with black culture because they are growing up in an affluent, mostly white neighborhood.",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
+    "platform": "Hulu",
+    "cast": "",
     "releasedate": "09/24/2014"
   },
   {
     "name": "Biglittelies",
     "posterImage": "images/biglittlelies.jpg",
     "movieTitle": "Big Little Lies",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
+    "rtRating": 92,
+    "myRating": 0,
+    "synopsis": "All is not what it seems in this dark comedy set in an idyllic seaside California town, where success, affluence and privilege are slowly but surely undone by secrets, rivalries, deception and murder. Nicole Kidman, Reese Witherspoon and Shailene Woodley star.",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
+    "platform": "HBO Go",
+    "cast": "",
     "releasedate": "02/19/2017"
   },
   {
     "name": "Empire",
     "posterImage": "images/empire.jpg",
     "movieTitle": "Empire",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
+    "rtRating": 86,
+    "myRating": 0,
+    "synopsis": "A music mogul plans for the future of his empire as his three sons and his ex-wife battle each other to become the next heir apparent to the hip-hop throne.",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
+    "platform": "Hulu",
+    "cast": "",
     "releasedate": "01/07/2015"
   },
   {
     "name": "Legion",
     "posterImage": "images/legion.jpg",
     "movieTitle": "Legion",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
+    "rtRating": 90,
+    "myRating": 0,
+    "synopsis": "Legion follows the story of David Haller, a troubled young man who may be more than human. Since he was a teenager, David has struggled with mental illness. Diagnosed as schizophrenic, David has been in and out of psychiatric hospitals for years. But after a strange encounter with a fellow patient, he's confronted with the possibility that the voices he hears and the visions he sees might be real.",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
+    "platform": "Hulu",
+    "cast": "",
     "releasedate": "02/08/2017"
   },
   {
     "name": "Madmen",
     "posterImage": "images/madmen.jpg",
     "movieTitle": "Mad Men",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
+    "rtRating": 94,
+    "myRating": 0,
+    "synopsis": "A look at the high-powered world of advertising in 1960s New York City, from the boardroom to the bedroom.",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
+    "platform": "Netflix",
+    "cast": "",
     "releasedate": "07/19/2007"
   },
    {
     "name": "bojack",
     "posterImage": "images/bojack.jpg",
     "movieTitle": "Bojack Horseman",
-    "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "tags": "",
+    "rtRating": 86,
     "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "",
+    "synopsis": "A former sitcom star attempts to restart his career. This star also happens to be a cartoon horse.",
+    "review": "",
+    "recommendations": "",
+    "platform": "Netflix",
     "releasedate": "08/22/2014"
   },
   {
@@ -126,24 +115,24 @@ var media = [
     "movieTitle": "Catastrophe",
     "tags": "strong female lead, uplifting, ",
     "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": "01/19/2015"
+    "myRating": 8.5,
+    "synopsis": "Rob Delaney and Sharon Horgan write and star in this R-rated comedy about a one-week stand between a Boston ad exec and a London schoolteacher that leads to an accidental pregnancy. When Rob moves to the UK to help figure things out, cultures clash and hormones flare as these two realize they don't know the first thing about each other. -- (C) AMAZON",
+    "review": "",
+    "recommendations": "",
+    "platform": "Amazon Prime",
+    "releasedate": "06/19/2015"
   },
   {
     "name": "community",
     "posterImage": "images/community.jpg",
     "movieTitle": "Community",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
+    "rtRating": 86,
+    "myRating": 7,
+    "synopsis": "A comedy series about an oddball group of students attending a community college in Colorado.",
+    "review": "",
     "recommendations": "If you like this watch...",
-    "platform": "",
+    "platform": "Hulu",
     "releasedate": "09/17/2009"
   },
   {
@@ -151,200 +140,200 @@ var media = [
     "posterImage": "images/crashing.jpg",
     "movieTitle": "Crashing",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
+    "rtRating": 0,
+    "myRating": 7.5,
+    "synopsis": "A new comedy series following the lives of six 20- and 30-somethings living together as property guardians of a large, disused hospital.",
+    "review": "",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Netflix",
+    "releasedate": "01/11/2016"
   },
   {
     "name": "difficultpeople",
     "posterImage": "images/difficultpeople.jpg",
     "movieTitle": "Difficult People",
     "tags": "",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
+    "rtRating": 92,
+    "myRating": 8.5,
+    "synopsis": "This comedy series zeros in on two irreverent, people-hating best friends in New York City.",
+    "review": "",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Hulu",
+    "releasedate": "08/05/2015"
   },
   {
     "name": "flaked",
     "posterImage": "images/flaked.jpg",
     "movieTitle": "Flaked",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 42,
+    "myRating": 6.5,
+    "synopsis": "A self-appointed ''guru'' named Chip falls for the object of his best friend's desire.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Netflix",
+    "releasedate": "03/11/2016"
   },
   {
     "name": "fleabag",
     "posterImage": "images/fleabag.jpg",
     "movieTitle": "Fleabag",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 100,
+    "myRating": 8,
+    "synopsis": "A sexually-liberated, irritable woman navigates modern life in London in this comedy. Based on Phoebe Waller-Bridge's play of the same name.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Amazon Prime",
+    "releasedate": "09/16/2016"
   },
   {
     "name": "girls",
     "posterImage": "images/girls.jpg",
     "movieTitle": "Girls",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "rtRating": 89,
     "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "A comedy about twentysomething women navigating their way through life in New York.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "HBO Go",
+    "releasedate": "04/15/2012"
   },
   {
     "name": "easy",
     "posterImage": "images/easy.jpg",
     "movieTitle": "Easy",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "rtRating": 94,
+    "myRating": 9.5,
+    "synopsis": "Season 1 features eight vignettes that follow the complicated, loosely connected lives of young Chicagoans in their twenties and thirties as they tackle love, sex and self-improvement.",
+    "review": "",
+    "recommendations": "",
+    "platform": "Netflix",
+    "releasedate": "09/22/2016"
   },
   {
     "name": "grace and frankie",
     "posterImage": "images/graceandfrankie.jpg",
     "movieTitle": "Grace and Frankie",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
+    "rtRating": 81,
+    "myRating": 8.5,
+    "synopsis": "Two nemeses become bonded jilted wives after their husbands reveal they have been having an affair with each other since the 1990s and now plan to get married.",
+    "review": "",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Netflix",
+    "releasedate": "05/08/2015"
   },
   {
     "name": "happyendings",
     "posterImage": "images/happyendings.jpg",
     "movieTitle": "Happy Endings",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 67,
+    "myRating": 7.5,
+    "synopsis": "A sitcom about the complications arising among friends of a seemingly perfect couple who break up.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Hulu",
+    "releasedate": "04/13/2011"
   },
   {
     "name": "highmeaintenance",
     "posterImage": "images/highmaintenance.jpg",
     "movieTitle": "High Maintenance",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
+    "rtRating": 94,
+    "myRating": 9.5,
+    "synopsis": "The show follows the adventurous life of a nameless marijuana delivery man played by Ben Sinclair, who's simply referred to as the Guy.",
+    "review": "",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "HBO Go",
+    "releasedate": "09/16/2016"
   },
   {
     "name": "insecure",
     "posterImage": "images/insecure.jpg",
     "movieTitle": "Insecure",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "rtRating": 100,
     "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "Two black women who are best friends navigate the pitfalls of their personal and professional lives in south Los Angeles.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "HBO Go",
+    "releasedate": "10/09/2016"
   },
   {
     "name": "love",
     "posterImage": "images/love.jpg",
     "movieTitle": "Love",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
+    "rtRating": 91,
+    "myRating": 6,
+    "synopsis": "Love follows nice guy Gus (Paul Rust) and brazen wild-child Mickey (Gillian Jacobs) as they navigate the exhilarations and humiliations of intimacy, commitment, love and other things they were hoping to avoid. Love is an unflinching, hilarious and excruciatingly honest take on modern relationships. Love is created, written and executive produced by Judd Apatow, Paul Rust.",
+    "review": "",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Netflix",
+    "releasedate": "02/19/2016"
   },
   {
     "name": "janethevirgin",
     "posterImage": "images/janethevirgin.jpg",
     "movieTitle": "Jane the Virgin",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 100,
+    "myRating": 7.5,
+    "synopsis": "A comedy-drama following a chaste young woman who is accidentally impregnated via artificial insemination as she struggles to inform her devoutly religious family and make the right choices concerning the child. Based on the telenovela 'Juana la virgen.'",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Netflix",
+    "releasedate": "10/13/2014"
   },
   {
     "name": "masterofnone",
     "posterImage": "images/masterofnone.jpg",
     "movieTitle": "Master of None",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "rtRating": 100,
     "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
+    "synopsis": "Comedy following the personal and professional challenges that face a 30-year-old New York actor, whose trials range from the immigrant experience to what pasta he should eat for dinner.",
+    "review": "",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Netflix",
+    "releasedate": "10/06/2015"
   },
   {
     "name": "modernfamily",
     "posterImage": "images/modernfamily.jpg",
     "movieTitle": "Modern Family",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
+    "rtRating": 86,
+    "myRating": 8,
     "synopsis": "Synopsis of movie goes here.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Hulu",
+    "releasedate": "09/23/2009"
   },
   {
     "name": "mozartinthejungle",
     "posterImage": "images/mozartinthejungle.jpg",
     "movieTitle": "Mozart in the Jungle",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 92,
+    "myRating": 7.5,
+    "synopsis": "What happens behind the curtains at the symphony is just as captivating as what happens on stage. -- (C) Amazon",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Amazon Prime",
+    "releasedate": "12/23/2014"
   },
   {
     "name": "newgirl",
     "posterImage": "images/newgirl.jpg",
-    "movieTitle": "New Girl",
+    "movieTitle": "Netflix, Hulu",
     "tags": "strong female lead, uplifting, ",
     "rtRating": 98,
     "myRating": 10,
@@ -497,7 +486,7 @@ var media = [
     "platform": "",
     "releasedate": 2017
   },
-    {
+  {
    "name": "Landline",
    "posterImage": "images/landline.jpg", 
    "movieTitle": "20th Century Women",
@@ -644,7 +633,7 @@ var media = [
     "cast": "",
     "releasedate": 2017
   },
-                        {
+  {
     "name": "Callmebyyourname",
     "posterImage": "images/callmebyyourname.jpg", 
     "movieTitle": "Call Me By Your Name",
@@ -656,7 +645,7 @@ var media = [
     "cast": "",
     "releasedate": 2017
   },
-                          {
+  {
     "name": "Catfight",
     "posterImage": "images/catfight.jpg", 
     "movieTitle": "Catfight",
@@ -668,7 +657,7 @@ var media = [
     "cast": "Sandra Oh",
     "releasedate": 2017
   },
-                            {
+  {
     "name": "Columbus",
     "posterImage": "images/columbus.jpg", 
     "movieTitle": "Columbus",
@@ -680,7 +669,7 @@ var media = [
     "cast": "",
     "releasedate": 2017
   },
-                             {
+  {
     "name": "Cosmos",
     "posterImage": "images/cosmos.jpg", 
     "movieTitle": "Cosmos",
@@ -1394,8 +1383,7 @@ window.onload = function (event) {
         $(elem).find("img.posterImage").attr("src", movie.posterImage);
         $(elem).find("p.rtRating").html(movie.rtRating);
       $(elem).find("p.myRating").html(movie.myRating);
-      $(elem).find("p.director").html(movie.director);
-      $(elem).find("p.releasedate").html(movie.releasedate);
+      $(elem).find("p.platform").html(movie.platform);
     }   
      event.preventDefault();
 
@@ -1420,8 +1408,7 @@ function displayWatchlist(event) {
         $(elem).find("img.posterImage").attr("src", movie.posterImage);
         $(elem).find("p.rtRating").html(movie.rtRating);
       $(elem).find("p.myRating").html(movie.myRating);
-      $(elem).find("p.director").html(movie.director);
-      $(elem).find("p.releasedate").html(movie.releasedate);
+      $(elem).find("p.platform").html(movie.platform);
     }   
      event.preventDefault();
 }
@@ -1436,14 +1423,26 @@ var movietemplate = '<div class="movie-item">' +
                     '<p class="review"></p>' +
                     '<p class="recommendations"></p>' +
                     '<p class="releasedate"></p>' +
+                    '<p class="platform"></p>' +
                     '<video class="trailer">' +
                     '</div>';
+
+
+function showTV (event) {
+  
+
+$( "li" )
+  .filter(function( index ) {
+    return $( "strong", this ).length === 1;
+  })
+  }
+
 /*
 function sortByDate(event) {
     media.sort(function(a, b){return a-b});
     $(elem).find("p.releasedate").html(movie.releasedate);
 }
-*/
+
 
 
 function compareByYear(lhs, rhs) {
@@ -1464,3 +1463,107 @@ function compareByYear(lhs, rhs) {
     console.log(media);
     event.preventDefault();
 }
+*/
+
+function compareRottenRating(lhs, rhs) {
+  if (lhs.rtRating > rhs.rtRating) {
+    return -1;
+  }
+  if (lhs.rtRating < rhs.rtRating) {
+    return 1;
+  }
+  return 0;
+}
+
+ function sortRottenRating(event) {
+    console.log("sort by rotten tomatoes");
+    media.sort(compareRottenRating);
+    $("#all-the-movies").empty();
+    displayWatchlist(event);
+    console.log(media);
+    event.preventDefault();
+}
+
+function compareMyRating(lhs, rhs) {
+  if (lhs.myRating > rhs.myRating) {
+    return -1;
+  }
+  if (lhs.myRating < rhs.myRating) {
+    return 1;
+  }
+  return 0;
+}
+
+ function sortMyRating(event) {
+    console.log("sort by stephflix");
+    media.sort(compareMyRating);
+    $("#all-the-movies").empty();
+    displayWatchlist(event);
+    console.log(media);
+    event.preventDefault();
+}
+
+function compareName(lhs, rhs) {
+  if (lhs.name < rhs.name) {
+    return -1;
+  }
+  if (lhs.name > rhs.name) {
+    return 1;
+  }
+  return 0;
+}
+
+ function sortName(event) {
+    console.log("sort alphabeticallt");
+    media.sort(compareName);
+    $("#all-the-movies").empty();
+    displayWatchlist(event);
+    console.log(media);
+    event.preventDefault();
+}
+
+$filters.on('click', function(e) {
+
+  // same code as above here
+
+  if ($filterColor == 'all') {
+    $boxes.removeClass('is-animated')
+      .fadeOut().finish().promise().done(function() {
+        $boxes.each(function(i) {
+          $(this).addClass('is-animated').delay((i++) * 200).fadeIn();
+        });
+      });
+  } else {
+    $boxes.removeClass('is-animated')
+      .fadeOut().finish().promise().done(function() {
+        $boxes.filter('[data-category = "' + $filterColor + '"]').each(function(i) {
+          $(this).addClass('is-animated').delay((i++) * 200).fadeIn();
+        });
+      });
+  }
+});
+
+/*
+//Filter News
+$('select#sort-news').change(function() {
+	var filter = $(this).val()
+	filterList(filter);
+});
+
+//News filter function
+function filterList(value) {
+	var list = $(".news-list .news-item");
+	$(list).fadeOut("fast");
+	if (value == "All") {
+		$(".news-list").find("article").each(function (i) {
+			$(this).delay(200).slideDown("fast");
+		});
+	} else {
+		//Notice this *=" <- This means that if the data-category contains multiple options, it will find them
+		//Ex: data-category="Cat1, Cat2"
+		$(".news-list").find("article[data-category*=" + value + "]").each(function (i) {
+			$(this).delay(200).slideDown("fast");
+		});
+	}
+}
+*/
