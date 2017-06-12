@@ -1522,26 +1522,6 @@ function compareName(lhs, rhs) {
     event.preventDefault();
 }
 
-$filters.on('click', function(e) {
-
-  // same code as above here
-
-  if ($filterColor == 'all') {
-    $boxes.removeClass('is-animated')
-      .fadeOut().finish().promise().done(function() {
-        $boxes.each(function(i) {
-          $(this).addClass('is-animated').delay((i++) * 200).fadeIn();
-        });
-      });
-  } else {
-    $boxes.removeClass('is-animated')
-      .fadeOut().finish().promise().done(function() {
-        $boxes.filter('[data-category = "' + $filterColor + '"]').each(function(i) {
-          $(this).addClass('is-animated').delay((i++) * 200).fadeIn();
-        });
-      });
-  }
-});
 
 /*
 //Filter News
