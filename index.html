@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/sort.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="js/sorts.js"></script>
+  <script src="js/allmedia.js"></script>
+   <title>CSS MenuMaker</title>
+</head>
+<body>
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'><span>Home</span></a></li>
+   <li class='last'><a href="tvwatchlist.html"><span>TV </span></a></li>
+  <li class='last'><a href="moviewatchlist.html"><span>Movies </span></a></li>
+</ul>
+</div>
+<div id='cssmenu2'>
+<ul>
+   <li class='active'><a href='#'><span>Sorts</span></a></li>
+   <li><a href='#'><span>By Year</span></a></li>
+   <li><a href='#'><span>By Stephlix Rating</span></a></li>
+   <li class='last'><a href='#'><span>Rotten Tomatoes Rating</span></a></li>
+</ul>
+</div>
+<div id='cssmenu3'>
+<ul>
+   <li class='active'><a href='#'><span>Platform Filters</span></a></li>
+   <li><a href='#'><span>Netflix</span></a></li>
+   <li><a href='#'><span>Amazon Prime</span></a></li>
+   <li class='last'><a href='#'><span>HBO</span></a></li>
+   <li class='last'><a href='#'><span>Other</span></a></li>
+</ul>
+</div>
+  
+  <button onclick="sortByYear(event)">Sort by Date</button>
+<div class="media">
+  <div class="boxes" id="all-the-movies">
+</div>
+</div>  
+</body>
+<html>

@@ -1,0 +1,421 @@
+/*Navigation*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu {
+  background: #f96e5b;
+  width: auto;
+}
+
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#cssmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#cssmenu.align-right ul li {
+  float: right;
+}
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#cssmenu ul li a:hover {
+  color: #333333;
+}
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+#cssmenu ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#cssmenu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: none;
+}
+#cssmenu ul li.active a {
+  color: #333333;
+}
+#cssmenu ul li.active a:before {
+  width: 100%;
+}
+#cssmenu.align-right li.last > a:after,
+#cssmenu.align-right li:last-child > a:after {
+  display: block;
+}
+#cssmenu.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #cssmenu ul li {
+    float: none;
+    display: block;
+  }
+  #cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #cssmenu ul li.last > a,
+  #cssmenu ul li:last-child > a {
+    border: 0;
+  }
+  #cssmenu ul li a:after {
+    display: none;
+  }
+  #cssmenu ul li a:before {
+    display: none;
+  }
+}
+
+/* menu 2 */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu2 {
+  background: #1DA492;
+  width: auto;
+}
+
+#cssmenu2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#cssmenu2 ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu2 ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#cssmenu2.align-right ul li {
+  float: right;
+}
+#cssmenu2.align-center ul {
+  text-align: center;
+}
+#cssmenu2 ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#cssmenu2 ul li a:hover {
+  color: #333333;
+}
+#cssmenu2 ul li a:hover:before {
+  width: 100%;
+}
+#cssmenu2 ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#cssmenu2 ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#cssmenu2 ul li.last > a:after,
+#cssmenu2 ul li:last-child > a:after {
+  display: none;
+}
+#cssmenu2 ul li.active a {
+  color: #333333;
+}
+#cssmenu2 ul li.active a:before {
+  width: 100%;
+}
+#cssmenu2.align-right li.last > a:after,
+#cssmenu2.align-right li:last-child > a:after {
+  display: block;
+}
+#cssmenu2.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #cssmenu2 ul li {
+    float: none;
+    display: block;
+  }
+  #cssmenu2 ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #cssmenu2 ul li.last > a,
+  #cssmenu2 ul li:last-child > a {
+    border: 0;
+  }
+  #cssmenu2 ul li a:after {
+    display: none;
+  }
+  #cssmenu2 ul li a:before {
+    display: none;
+  }
+}
+
+/* menu 3 */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu3 {
+  background: #139FCB;
+  width: auto;
+}
+
+#cssmenu3 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#cssmenu3 ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu3 ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#cssmenu3.align-right ul li {
+  float: right;
+}
+#cssmenu3.align-center ul {
+  text-align: center;
+}
+#cssmenu3 ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#cssmenu3 ul li a:hover {
+  color: #333333;
+}
+#cssmenu3 ul li a:hover:before {
+  width: 100%;
+}
+#cssmenu3 ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#cssmenu3 ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#cssmenu3 ul li.last > a:after,
+#cssmenu3 ul li:last-child > a:after {
+  display: none;
+}
+#cssmenu3 ul li.active a {
+  color: #333333;
+}
+#cssmenu3 ul li.active a:before {
+  width: 100%;
+}
+#cssmenu3.align-right li.last > a:after,
+#cssmenu3.align-right li:last-child > a:after {
+  display: block;
+}
+#cssmenu3.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #cssmenu3 ul li {
+    float: none;
+    display: block;
+  }
+  #cssmenu3 ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #cssmenu3 ul li.last > a,
+  #cssmenu3 ul li:last-child > a {
+    border: 0;
+  }
+  #cssmenu3 ul li a:after {
+    display: none;
+  }
+  #cssmenu3 ul li a:before {
+    display: none;
+  }
+}
+
+/*Attempt at a grid*/
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: #EEE;
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 20%;
+}
+
+.grid-item {
+  height: 120px;
+  float: left;
+  background: #D26;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}
+
+/*poster*/
+.posterImage{
+    height: 20em;
+    width: 15em;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ccc;
+}
