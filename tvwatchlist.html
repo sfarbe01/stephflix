@@ -2,6 +2,7 @@
 <html lang="en">    
 <head>
     <link href='http://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link href="styles/main.css" rel='stylesheet' type='text/css'>
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
     <link href="styles/sort.css" rel="stylesheet" type="text/css">
@@ -13,15 +14,17 @@
 <div id='cssmenu'>
 <ul>
    <li class='active'><a href='index.html'><span>Home</span></a></li>
-   <li class='last'><a href="tvwatchlist.html"><span>TV</span></a></li>
+   <li class='last'><a href="tvwatchlist.html"><span>TV </span></a></li>
   <li class='last'><a href="moviewatchlist.html"><span>Movies </span></a></li>
 </ul>
 </div>
 <div id='cssmenu2'>
 <ul>
    <li class='active'><a href='#'><span>Sorts</span></a></li>
-   <li><a href='#'><span>By Year</span></a></li>
-   <li class='last'><a href='#'><span>Rotten Tomatoes Rating</span></a></li>
+    <li><a onclick="sortName(event)"><span>A/Z</span></a></li>
+   <li><a onclick="sortRottenRating(event)"><span>By Stephlix Rating</span></a></li>
+   <li class='last'><a onclick="sortRottenRating(event)"><span>Rotten Tomatoes Rating</span></a></li>
+  <li><a href='#'><span>By Year</span></a></li>
 </ul>
 </div>
 <div id='cssmenu3'>
@@ -30,19 +33,10 @@
    <li><a href='#'><span>Netflix</span></a></li>
    <li><a href='#'><span>Amazon Prime</span></a></li>
    <li class='last'><a href='#'><span>HBO</span></a></li>
+   <li class='last'><a href='#'><span>Hulu</span></a></li>
    <li class='last'><a href='#'><span>Other</span></a></li>
 </ul>
 </div>
-    <div class="cta filter">
-  <a class="all active" data-filter="all" href="#" role="button">Show All</a>
-  <a class="green" data-filter="green" href="#" role="button">Amazon Prime</a>
-  <a class="blue" data-filter="blue" href="#" role="button">Netflix</a>
-  <a class="red" data-filter="red" href="#" role="button">Hulu</a>
-  <a class="green" data-filter="green" href="#" role="button">HBO</a>
-  <a class="green" data-filter="green" href="#" role="button">iTunes</a>
-  <a class="green" data-filter="green" href="#" role="button">Other</a>
-</div>
-
 <div class="boxes" id="all-the-movies">
 </div>  
 </body>
