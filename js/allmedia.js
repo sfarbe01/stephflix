@@ -387,7 +387,7 @@ var media = [
     "posterImage": "images/sixfeetunder.jpg",
     "movieTitle": "Six Feet Under",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": N/A,
+    "rtRating": 100,
     "myRating": 10,
     "synopsis": "Life---and death---at a family-owned funeral home in Los Angeles plays out in this provocative, at times macabre series created by Oscar-winning screenwriter Alan Ball (`American Beauty'). A recipient of several Emmys, it's a compelling, superbly acted drama laced with considerable wit and poignancy. Each episode begins with a fresh corpse (including the clan's patriarch in the premiere), which usually has something to do with the ongoing dysfunction in and around the Fisher household.",
     "review": "If I could give this more than a 10 I would",
