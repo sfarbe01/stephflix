@@ -333,15 +333,15 @@ var media = [
   {
     "name": "newgirl",
     "posterImage": "images/newgirl.jpg",
-    "movieTitle": "Netflix, Hulu",
+    "movieTitle": "New Girl",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "rtRating": 93,
+    "myRating": 7,
+    "synopsis": "Sitcom centered on Jess Day, a sweet but naive twentysomething, who shares a loft with three single men.",
+    "review": "",
+    "recommendations": "",
+    "platform": "Netflix, Hulu",
+    "releasedate": "09/20/2011"
   },
   {
     "name": "orangeisthenewblack",
@@ -349,77 +349,77 @@ var media = [
     "movieTitle": "Orange is the New Black",
     "tags": "strong female lead, uplifting, ",
     "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "myRating": 9.5,
+    "synopsis": "A New York woman struggles to adjust to life in a federal prison.",
+    "review": "",
+    "recommendations": "",
+    "platform": "Netflix",
+    "releasedate": "07/11/2013"
   },
   {
     "name": "parenthood",
     "posterImage": "images/parenthood.jpg",
     "movieTitle": "Parenthood",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "rtRating": 90,
+    "myRating": 9.5,
+    "synopsis": "A comedy-drama following a large and imperfect family as they tackle the challenges of raising kids and starting over after setbacks. Based on the hit 1989 film.",
+    "review": "",
+    "recommendations": "",
+    "platform": "Netflix",
+    "releasedate": "03/02/2010"
   },
   {
     "name": "parksandrec",
     "posterImage": "images/parksandrec.jpg",
     "movieTitle": "Parks and Recreation",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "rtRating": 90,
     "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "synopsis": "A mockumentary following the inner workings of the Parks and Recreation Department of Pawnee, Ind. From the creators of 'The Office.'",
+    "review": "",
+    "recommendations": "",
+    "platform": "Netflix",
+    "releasedate": "04/09/2009"
   },
   {
     "name": "sixfeetunder",
     "posterImage": "images/sixfeetunder.jpg",
     "movieTitle": "Six Feet Under",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "rtRating": N/A,
     "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "synopsis": "Life---and death---at a family-owned funeral home in Los Angeles plays out in this provocative, at times macabre series created by Oscar-winning screenwriter Alan Ball (`American Beauty'). A recipient of several Emmys, it's a compelling, superbly acted drama laced with considerable wit and poignancy. Each episode begins with a fresh corpse (including the clan's patriarch in the premiere), which usually has something to do with the ongoing dysfunction in and around the Fisher household.",
+    "review": "If I could give this more than a 10 I would",
+    "recommendations": "",
+    "platform": "HBO Go, Amazon Prime",
+    "releasedate": "06/03/2001"
   },
   {
     "name": "strangerthings",
     "posterImage": "images/strangerthings.jpg",
     "movieTitle": "Stranger Things",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "rtRating": 95,
+    "myRating": 9,
+    "synopsis": "A love letter to the '80s classics that captivated a generation, Stranger Things is set in 1983 Indiana, where a young boy vanishes into thin air. As friends, family and local police search for answers, they are drawn into an extraordinary mystery involving top-secret government experiments, terrifying supernatural forces and one very strange little girl.",
+    "review": "",
+    "recommendations": "",
+    "platform": "Netflix",
+    "releasedate": "07/15/2016"
   },
   {
     "name": "thegoodplace",
     "posterImage": "images/thegoodplace.jpg",
     "movieTitle": "The Good Place",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 90,
+    "myRating": 8,
+    "synopsis": "A New Jersey woman enters the afterlife and tries to become a better person and make amends for past bad behavior in this comedy.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "recommendations": "",
+    "platform": "Hulu",
+    "releasedate": "09/19/2016"
   },
   {
     "name": "theoffice",
@@ -1521,29 +1521,3 @@ function compareName(lhs, rhs) {
     console.log(media);
     event.preventDefault();
 }
-
-
-/*
-//Filter News
-$('select#sort-news').change(function() {
-	var filter = $(this).val()
-	filterList(filter);
-});
-
-//News filter function
-function filterList(value) {
-	var list = $(".news-list .news-item");
-	$(list).fadeOut("fast");
-	if (value == "All") {
-		$(".news-list").find("article").each(function (i) {
-			$(this).delay(200).slideDown("fast");
-		});
-	} else {
-		//Notice this *=" <- This means that if the data-category contains multiple options, it will find them
-		//Ex: data-category="Cat1, Cat2"
-		$(".news-list").find("article[data-category*=" + value + "]").each(function (i) {
-			$(this).delay(200).slideDown("fast");
-		});
-	}
-}
-*/
