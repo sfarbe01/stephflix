@@ -1,3 +1,5 @@
+var currentmedia = [];
+
 var media = [
   {
     "name": "GoT",
@@ -9,7 +11,8 @@ var media = [
     "recommendations": "",
     "platform": "HBO Go",
     "cast": "",
-    "releasedate": "04/17/2011"
+    "type": "TV",
+    "releasedate": "2011-04-17"
   },
   {
     "name": "13reasonswhy",
@@ -22,7 +25,8 @@ var media = [
     "recommendations": "",
     "platform": "Netflix",
     "cast": "",
-    "releasedate": "03/31/2017"
+    "type": "TV",
+    "releasedate": "2017-03-31"
   },
   {
     "name": "Atlanta",
@@ -34,7 +38,8 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "FX",
     "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": "09/16/2016"
+    "type": "TV",
+    "releasedate": "2016-16-09"
   },
   {
     "name": "Black-ish",
@@ -46,7 +51,8 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
     "cast": "",
-    "releasedate": "09/24/2014"
+    "type": "TV",
+    "releasedate": "2014-09-24"
   },
   {
     "name": "Biglittelies",
@@ -58,7 +64,8 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "HBO Go",
     "cast": "",
-    "releasedate": "02/19/2017"
+    "type": "TV",
+    "releasedate": "2017-02-19"
   },
   {
     "name": "Empire",
@@ -70,7 +77,8 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
     "cast": "",
-    "releasedate": "01/07/2015"
+    "type": "TV",
+    "releasedate": "2015-01-07"
   },
   {
     "name": "Legion",
@@ -82,7 +90,8 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
     "cast": "",
-    "releasedate": "02/08/2017"
+    "type": "TV",
+    "releasedate": "2017-02-08"
   },
   {
     "name": "Madmen",
@@ -94,10 +103,11 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
     "cast": "",
-    "releasedate": "07/19/2007"
+    "type": "TV",
+    "releasedate": "2007-07-19"
   },
    {
-    "name": "bojack",
+    "name": "Bojack",
     "posterImage": "images/bojack.jpg",
     "movieTitle": "Bojack Horseman",
     "tags": "",
@@ -107,10 +117,11 @@ var media = [
     "review": "",
     "recommendations": "",
     "platform": "Netflix",
-    "releasedate": "08/22/2014"
+     "type": "TV",
+    "releasedate": "2014-08-22"
   },
   {
-    "name": "catastrophe",
+    "name": "Catastrophe",
     "posterImage": "images/catastrophe.jpg",
     "movieTitle": "Catastrophe",
     "tags": "strong female lead, uplifting, ",
@@ -120,10 +131,11 @@ var media = [
     "review": "",
     "recommendations": "",
     "platform": "Amazon Prime",
-    "releasedate": "06/19/2015"
+    "type": "TV",
+    "releasedate": "2015-06-19"
   },
   {
-    "name": "community",
+    "name": "Community",
     "posterImage": "images/community.jpg",
     "movieTitle": "Community",
     "tags": "strong female lead, uplifting, ",
@@ -133,7 +145,8 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
-    "releasedate": "09/17/2009"
+    "type": "TV",
+    "releasedate": "2009-09-17"
   },
   {
     "name": "crashing",
@@ -146,10 +159,11 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
-    "releasedate": "01/11/2016"
+    "type": "TV",
+    "releasedate": "2016-01-11"
   },
   {
-    "name": "difficultpeople",
+    "name": "Difficultpeople",
     "posterImage": "images/difficultpeople.jpg",
     "movieTitle": "Difficult People",
     "tags": "",
@@ -159,10 +173,11 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
+    "type": "TV",
     "releasedate": "08/05/2015"
   },
   {
-    "name": "flaked",
+    "name": "Flaked",
     "posterImage": "images/flaked.jpg",
     "movieTitle": "Flaked",
     "tags": "strong female lead, uplifting, ",
@@ -172,6 +187,7 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
+    "type": "TV",
     "releasedate": "03/11/2016"
   },
   {
@@ -185,10 +201,11 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "Amazon Prime",
+    "type": "TV",
     "releasedate": "09/16/2016"
   },
   {
-    "name": "girls",
+    "name": "Girls",
     "posterImage": "images/girls.jpg",
     "movieTitle": "Girls",
     "tags": "strong female lead, uplifting, ",
@@ -198,10 +215,11 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "HBO Go",
+    "type": "TV",
     "releasedate": "04/15/2012"
   },
   {
-    "name": "easy",
+    "name": "Easy",
     "posterImage": "images/easy.jpg",
     "movieTitle": "Easy",
     "tags": "strong female lead, uplifting, ",
@@ -211,10 +229,11 @@ var media = [
     "review": "",
     "recommendations": "",
     "platform": "Netflix",
+    "type": "TV",
     "releasedate": "09/22/2016"
   },
   {
-    "name": "grace and frankie",
+    "name": "Grace and frankie",
     "posterImage": "images/graceandfrankie.jpg",
     "movieTitle": "Grace and Frankie",
     "tags": "strong female lead, uplifting, ",
@@ -224,10 +243,11 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
+    "type": "TV",
     "releasedate": "05/08/2015"
   },
   {
-    "name": "happyendings",
+    "name": "Happyendings",
     "posterImage": "images/happyendings.jpg",
     "movieTitle": "Happy Endings",
     "tags": "strong female lead, uplifting, ",
@@ -237,6 +257,7 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
+    "type": "TV",
     "releasedate": "04/13/2011"
   },
   {
@@ -250,10 +271,11 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "HBO Go",
+    "type": "TV",
     "releasedate": "09/16/2016"
   },
   {
-    "name": "insecure",
+    "name": "Insecure",
     "posterImage": "images/insecure.jpg",
     "movieTitle": "Insecure",
     "tags": "strong female lead, uplifting, ",
@@ -263,10 +285,11 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "HBO Go",
+    "type": "TV",
     "releasedate": "10/09/2016"
   },
   {
-    "name": "love",
+    "name": "Love",
     "posterImage": "images/love.jpg",
     "movieTitle": "Love",
     "tags": "strong female lead, uplifting, ",
@@ -276,10 +299,11 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
+    "type": "TV",
     "releasedate": "02/19/2016"
   },
   {
-    "name": "janethevirgin",
+    "name": "Janethevirgin",
     "posterImage": "images/janethevirgin.jpg",
     "movieTitle": "Jane the Virgin",
     "tags": "strong female lead, uplifting, ",
@@ -289,10 +313,11 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
+    "type": "TV",
     "releasedate": "10/13/2014"
   },
   {
-    "name": "masterofnone",
+    "name": "Masterofnone",
     "posterImage": "images/masterofnone.jpg",
     "movieTitle": "Master of None",
     "tags": "strong female lead, uplifting, ",
@@ -302,10 +327,11 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
+    "type": "TV",
     "releasedate": "10/06/2015"
   },
   {
-    "name": "modernfamily",
+    "name": "Modernfamily",
     "posterImage": "images/modernfamily.jpg",
     "movieTitle": "Modern Family",
     "tags": "strong female lead, uplifting, ",
@@ -315,10 +341,11 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
+    "type": "TV",
     "releasedate": "09/23/2009"
   },
   {
-    "name": "mozartinthejungle",
+    "name": "Mozartinthejungle",
     "posterImage": "images/mozartinthejungle.jpg",
     "movieTitle": "Mozart in the Jungle",
     "tags": "strong female lead, uplifting, ",
@@ -328,10 +355,11 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "Amazon Prime",
+    "type": "TV",
     "releasedate": "12/23/2014"
   },
   {
-    "name": "newgirl",
+    "name": "Newgirl",
     "posterImage": "images/newgirl.jpg",
     "movieTitle": "New Girl",
     "tags": "strong female lead, uplifting, ",
@@ -341,10 +369,11 @@ var media = [
     "review": "",
     "recommendations": "",
     "platform": "Netflix, Hulu",
+    "type": "TV",
     "releasedate": "09/20/2011"
   },
   {
-    "name": "orangeisthenewblack",
+    "name": "Orangeisthenewblack",
     "posterImage": "images/oitnb.jpg",
     "movieTitle": "Orange is the New Black",
     "tags": "strong female lead, uplifting, ",
@@ -354,10 +383,11 @@ var media = [
     "review": "",
     "recommendations": "",
     "platform": "Netflix",
+    "type": "TV",
     "releasedate": "07/11/2013"
   },
   {
-    "name": "parenthood",
+    "name": "Parenthood",
     "posterImage": "images/parenthood.jpg",
     "movieTitle": "Parenthood",
     "tags": "strong female lead, uplifting, ",
@@ -367,10 +397,11 @@ var media = [
     "review": "",
     "recommendations": "",
     "platform": "Netflix",
+    "type": "TV",
     "releasedate": "03/02/2010"
   },
   {
-    "name": "parksandrec",
+    "name": "Parksandrec",
     "posterImage": "images/parksandrec.jpg",
     "movieTitle": "Parks and Recreation",
     "tags": "strong female lead, uplifting, ",
@@ -380,6 +411,7 @@ var media = [
     "review": "",
     "recommendations": "",
     "platform": "Netflix",
+    "type": "TV",
     "releasedate": "04/09/2009"
   },
   {
@@ -393,6 +425,7 @@ var media = [
     "review": "If I could give this more than a 10 I would",
     "recommendations": "",
     "platform": "HBO Go, Amazon Prime",
+    "type": "TV",
     "releasedate": "06/03/2001"
   },
   {
@@ -406,6 +439,7 @@ var media = [
     "review": "",
     "recommendations": "",
     "platform": "Netflix",
+    "type": "TV",
     "releasedate": "07/15/2016"
   },
   {
@@ -419,6 +453,7 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "",
     "platform": "Hulu",
+    "type": "TV",
     "releasedate": "09/19/2016"
   },
   {
@@ -426,26 +461,28 @@ var media = [
     "posterImage": "images/theoffice.jpg",
     "movieTitle": "The Office",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "rtRating": 88,
     "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "Based on the award-winning British comedy of the same name, this acclaimed sitcom is told through the lenses of a documentary film crew and filled with gossip, pranks, romance and general foolishness at Dunder-Mifflin Paper Co. in Scranton, Pennsylvania. If you've ever hated your boss, your job or both, then you'll love this show.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Netflix",
+    "type": "TV",
+    "releasedate": "03/24/2005"
   },
   {
     "name": "unbreakablekimmy",
     "posterImage": "images/unbreakablekimmy.jpg",
     "movieTitle": "Unbreakable Kimmy Schmidt",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 96,
+    "myRating": 8,
+    "synopsis": "A woman who lived in a cult for 15 years starts life anew in New York City in this comedy series.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Netflix",
+    "type": "TV",
+    "releasedate": "03/06/2015"
   },
   {
     "name": "transparent",
@@ -454,235 +491,228 @@ var media = [
     "tags": "strong female lead, uplifting, ",
     "rtRating": 98,
     "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "Following the goings-on of a dysfunctional Los Angeles family.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Amazon Prime",
+    "type": "TV",
+    "releasedate": "09/26/2014"
   },
   {
     "name": "unitedstatesoftara",
     "posterImage": "images/unitedstatesoftara.jpg",
     "movieTitle": "United States of Tara",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "rtRating": 75,
     "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "Misadventures of a housewife with a personality disorder and a dysfunctional family.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Netflix",
+    "type": "TV",
+    "releasedate": "01/18/2009"
   },
   {
     "name": "weeds",
     "posterImage": "images/weeds.jpg",
     "movieTitle": "Weeds",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "rtRating": 77,
     "myRating": 10,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "A suburban California widow deals pot to make ends meet after the unexpected death of her husband.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "",
-    "releasedate": 2017
+    "platform": "Netflix",
+    "type": "TV",
+    "releasedate": "08/07/2005"
   },
   {
    "name": "Landline",
    "posterImage": "images/landline.jpg", 
-   "movieTitle": "20th Century Women",
+   "movieTitle": "Landline",
    "tags": "strong female lead, uplifting, ",
-   "rtRating": 98,
-   "synopsis": "Synopsis of movie goes here.",
+   "rtRating": 76,
+   "myRating": 0,
+   "synopsis": "When two sisters suspect their father (John Turturro) may be having an affair, it sends them into a tailspin that reveals cracks in the family façade. For the first time, older sister Dana (Jenny Slate), recently engaged and struggling with her own fidelity, finds herself bonding with her wild teenage sister Ali (Abby Quinn). The two try to uncover the truth without tipping off their mother (Edie Falco) and discover the messy reality of love and sex in the process. Set in 1990s Manhattan, Landline is a warm, insightful and comedic drama about a family united by secrets and lies, co-written and directed by Gillian Robespierre (Obvious Child).",
    "dateofrelease": "July 21, 2017",
    "recommendations": "If you like this watch...",
    "platform": "",
    "cast": "Jenny Slate, Jay Duplass",
-   "releasedate": 2017
+   "type": "Movie",
+   "releasedate": "07/21/2017" 
   },
   {
    "name": "Dean",
    "posterImage": "images/dean.jpg", 
    "movieTitle": "Dean",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 61,
+    "synopsis": "Writer/Director/Comedian Demetri Martin stars alongside Academy Award winner Kevin Kline in this comedic and heartfelt tale about a father and son coming to terms with love, loss and everything in between. Dean (Martin) is an illustrator whose unwillingness to deal with the recent death of his mother means escaping his hometown of New York for an interview with an ad agency in Los Angeles. His retired engineer dad Robert (Kline) takes a more regimented approach to grief, including putting the family home up for sale. Both father and son set out on their own paths to find a new normal as unexpected circumstances and potential new love interests threaten to thwart all plans.",
     "dateofrelease": "July 21, 2017",
     "recommendations": "If you like this watch...",
     "platform": "",
     "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "06/02/2017"
   },
    {
     "name": "BigSick",
     "posterImage": "images/bigsick.jpg", 
     "movieTitle": "The Big Sick",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 97,
+    "synopsis": "Based on the real-life courtship between Kumail Nanjiani and Emily V. Gordon, THE BIG SICK tells the story of Pakistan-born aspiring comedian Kumail (Nanjiani), who connects with grad student Emily (Kazan) after one of his standup sets. However, what they thought would be just a one-night stand blossoms into the real thing, which complicates the life that is expected of Kumail by his traditional Muslim parents. When Emily is beset with a mystery illness, it forces Kumail to navigate the medical crisis with her parents, Beth and Terry (Holly Hunter and Ray Romano) who he's never met, while dealing with the emotional tug-of-war between his family and his heart. THE BIG SICK is directed by Michael Showalter (HELLO MY NAME IS DORIS) and producer by Judd Apatow (TRAINWRECK, THIS IS 40) and Barry Mendel (TRAINWRECK, THE ROYAL TENENBAUMS).",
     "dateofrelease": "July 21, 2017",
     "recommendations": "If you like this watch...",
     "platform": "",
     "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "06/23/2017" 
   },
-     {
+  {
     "name": "ABiggerSplash",
     "posterImage": "images/biggersplash.jpg", 
     "movieTitle": "A Bigger Splash",
     "tags": "",
     "rtRating": 89,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "In A BIGGER SPLASH, rock legend Marianne Lane (Tilda Swinton) is recuperating on the volcanic island of Pantelleria with her partner Paul (Matthias Schoenaerts) when iconoclast record producer and old flame Harry (Ralph Fiennes) unexpectedly arrives with his daughter Penelope (Dakota Johnson) and interrupts their holiday, bringing with him an A-bomb blast of nostalgia from which there can be no rescue. A BIGGER SPLASH is a sensuous portrait of desire, jealousy and rock and roll, under the Mediterranean sun.",
     "dateofrelease": "July 21, 2017",
-    "platform": "",
+    "platform": "Amazon Prime",
     "cast": "",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "05/04/2016"
   },
-       {
+  {
     "name": "AManCalledOve",
     "posterImage": "images/amancalledove.jpg", 
     "movieTitle": "A Mah Called Ove",
     "tags": "",
     "rtRating": 91,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "Stepping from the pages of Fredrik Backman's international best-selling novel, Ove is the quintessential angry old man next door. An isolated retiree with strict principles and a short fuse, who spends his days enforcing block association rules that only he cares about, and visiting his wife's grave, Ove has given up on life. Enter a boisterous young family next door who accidentally flattens Ove's mailbox while moving in and earning his special brand of ire. Yet from this inauspicious beginning an unlikely friendship forms and we come to understand Ove's past happiness and heartbreaks. What emerges is a heartwarming tale of unreliable first impressions and the gentle reminder that life is sweeter when it's shared.",
     "dateofrelease": "",
-    "platform": "",
+    "platform": "Amazon Prime",
     "cast": "",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "09/30/2016"
   },
-           {
+  {
     "name": "AMonsterCalls",
     "posterImage": "images/monstercalls.jpg", 
     "movieTitle": "A Monster Calls",
     "tags": "",
     "rtRating": 87,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "A visually spectacular drama from director J.A. Bayona ('The Impossible'). 12-year-old Conor (Lewis MacDougall), dealing with his mother's (Felicity Jones) illness, a less-than-sympathetic grandmother (Sigourney Weaver), and bullying classmates, finds a most unlikely ally when a Monster appears at his bedroom window. Ancient, wild, and relentless, the Monster guides Conor on a journey of courage, faith, and truth. Toby Kebbell plays Conor's father, and Liam Neeson stars in performance-capture and voiceover as the nocturnally visiting Monster of the title.",
     "dateofrelease": "",
     "platform": "",
     "cast": "",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "01/06/2017"
   },
-             {
+  {
     "name": "AUnitedKingdom",
     "posterImage": "images/unitedkingdom.jpg", 
     "movieTitle": "A United Kingdom",
     "tags": "",
     "rtRating": 83,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "A UNITED KINGDOM is based on extraordinary true events. In 1947, Seretse Khama, the King of Botswana, met Ruth Williams, a London office worker. They were a perfect match, yet their proposed marriage was challenged not only by their families but by the British and South African governments. The latter had recently introduced the policy of apartheid and found the notion of a biracial couple ruling a neighboring country intolerable. South Africa threatened the British: either thwart the couple or be denied access to South African uranium and gold and face the risk of South Africa invading Botswana.",
     "dateofrelease": "",
     "platform": "",
     "cast": "",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "02/10/2017" 
   },
-               {
+  {
     "name": "AmericanHoney",
     "posterImage": "images/americanhoney.jpg", 
     "movieTitle": "American Honey",
     "tags": "",
-    "rtRating": 83,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 79,
+    "synopsis": "Star, an adolescent girl from a troubled home, runs away with a traveling sales crew who drive across the American Midwest selling subscriptions door to door. Finding her feet in this gang of teenagers, one of whom is Jake, she soon gets into the group's lifestyle of hard-partying nights, law-bending days, and young love.",
     "dateofrelease": "",
     "platform": "Amazon Prime",
     "cast": "",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "09/30/2016"
   },
-                 {
+  {
     "name": "BattleofSexes",
     "posterImage": "images/battlesexes.jpg", 
     "movieTitle": "Battle of the Sexes",
     "tags": "",
     "rtRating": 00,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "The electrifying 1973 tennis match between World number one Billie Jean King and ex-champ and serial hustler Bobby Riggs was billed as THE BATTLE OF THE SEXES and became the most watched televised sports event of all time. The match caught the zeitgeist and sparked a global conversation on gender equality, spurring on the feminist movement. Trapped in the media glare, King and Riggs were on opposites sides of a binary argument, but off-court each was fighting more personal and complex battles. With a supportive husband urging her to fight the Establishment for equal pay, the fiercely private King was also struggling to come to terms with her own sexuality, while Riggs gambled his legacy and reputation in a bid to relive the glories of his past. Together, Billie and Bobby served up a cultural spectacle that resonated far beyond the tennis courts and animated the discussions between men and women in bedrooms and boardrooms around the world.",
     "dateofrelease": "",
     "platform": "",
     "cast": "",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "09/22/2017"
   },
-                   {
+  {
     "name": "BandAid",
     "posterImage": "images/bandaid.jpg", 
     "movieTitle": "Band Aid",
     "tags": "",
-    "rtRating": 00,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 83,
+    "synopsis": "Band Aid, the refreshingly raw, real, and hilarious feature debut from Zoe Lister-Jones, is the story of a couple, Anna (Zoe Lister-Jones) and Ben (Adam Pally), who can't stop fighting. Advised by their therapist to try and work through their grief unconventionally, they are reminded of their shared love of music. In a last-ditch effort to save their marriage, they decide to turn all their fights into song, and with the help of their neighbor Dave (Fred Armisen), they start a band. A story of love, loss, and rock and roll, Band Aid is a witty and perceptive view of modern love, with some seriously catchy pop hooks to boot.",
     "dateofrelease": "",
     "platform": "",
     "cast": "Adam Pally",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "06/02/2017"
   },
-                    {
+  {
     "name": "BeatrizatDinner",
     "posterImage": "images/beatrizatdinner.jpg", 
     "movieTitle": "Beatriz at Dinner",
     "tags": "",
-    "rtRating": 00,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 80,
+    "synopsis": "Beatriz (Salma Hayek), an immigrant from a poor town in Mexico, has drawn on her innate kindness to build a career as a health practitioner in Los Angeles. Doug Strutt (John Lithgow) is a cutthroat, self-satisfied billionaire. When these two opposites meet at a dinner party, their worlds collide and neither will ever be the same.",
     "dateofrelease": "",
     "platform": "",
     "cast": "",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "06/09/2017"
   },
-                      {
+  {
     "name": "Beastsofnonation",
     "posterImage": "images/beastsofnonation.jpg", 
     "movieTitle": "Beasts of No Nation",
     "tags": "",
     "rtRating": 91,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "In West Africa, the life of young Agu (Abraham Attah) is disrupted when his father is slaughtered in a civil war and he is inscripted as a child soldier into a mercenary unit led by the sadistic Commandant (Idris Elba).",
     "dateofrelease": "",
-    "platform": "",
+    "platform": "Netflix",
     "cast": "",
-    "releasedate": 2017
+    "type": "Movie",                    
+    "releasedate": "10/16/2015"
   },
   {
     "name": "Callmebyyourname",
     "posterImage": "images/callmebyyourname.jpg", 
     "movieTitle": "Call Me By Your Name",
     "tags": "",
-    "rtRating": 00,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 100,
+    "synopsis": "It's the summer of 1983, in the north of Italy, and Elio Perlman, (Timothée Chalamet) a 17-year-old American-Italian boy spends his days in his family's 17th century villa lazily transcribing music and flirting with his friend Marzia (Esther Garrel). One day Oliver, (Armie Hammer) a charming, 24-year-old American scholar working on his doctorate arrives as the annual summer intern tasked with helping Elio's father (Michael Stuhlbarg), an eminent professor specializing in Greco-Roman culture. Amidst the sun-drenched splendor of this sensual setting, Elio and Oliver discover the heady beauty of awakening desire over the course of a summer that will alter their lives forever.",
     "dateofrelease": "",
     "platform": "",
     "cast": "",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "11/24/2017"
   },
   {
     "name": "Catfight",
     "posterImage": "images/catfight.jpg", 
     "movieTitle": "Catfight",
     "tags": "",
-    "rtRating": 00,
-    "synopsis": "Synopsis of movie goes here.",
+    "rtRating": 73,
+    "synopsis": "Wealthy wine lover Veronica Salt (Sandra Oh, Grey's Anatomy, Sideways) and struggling outsider artist Ashley Chambers (Anne Heche, Hung, Psycho, Six Days Seven Nights) were close in college, but haven't seen each other since. When they find themselves attending the same glitzy birthday party, verbal barbs lead to fisticuffs and an all-out brawl that will keep these two locked in combat for years to come. Outrageous, hilarious, and action-packed, writer-director Onur Tukel's (Applesauce, Summer of Blood, Richard's Wedding) CATFIGHT is a jet-black comedy about two bitter rivals whose grudge match spans a lifetime.",
     "dateofrelease": "",
-    "platform": "",
+    "platform": "Netflix",
     "cast": "Sandra Oh",
-    "releasedate": 2017
+    "type": "Movie",
+    "releasedate": "03/03/2017" 
   },
   {
-    "name": "Columbus",
-    "posterImage": "images/columbus.jpg", 
-    "movieTitle": "Columbus",
-    "tags": "",
-    "rtRating": 00,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "",
-    "platform": "",
-    "cast": "",
-    "releasedate": 2017
-  },
-  {
-    "name": "Cosmos",
-    "posterImage": "images/cosmos.jpg", 
-    "movieTitle": "Cosmos",
-    "tags": "",
-    "rtRating": 00,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "",
-    "platform": "",
-    "cast": "",
-    "dir": "",
-    "releasedate": 2017
-  },
-                               {
     "name": "Everybodywantssome",
     "posterImage": "images/everybodywantssome.jpg", 
     "movieTitle": "Everybody Wants Some!",
@@ -693,9 +723,10 @@ var media = [
     "platform": "",
     "cast": "",
     "dir": "Richard Linklater",
+    "type": "Movie",
     "releasedate": 2017
   },
-                               {
+  {
     "name": "FitsandStarts",
     "posterImage": "images/fitsandstarts.jpg", 
     "movieTitle": "Fits and Starts",
@@ -706,9 +737,10 @@ var media = [
     "platform": "",
     "cast": "",
     "dir": "",
+    "type": "Movie", 
     "releasedate": 2017
   },
-                                 {
+  {
     "name": "Freefire",
     "posterImage": "images/freefire.jpg", 
     "movieTitle": "Freefire",
@@ -719,9 +751,10 @@ var media = [
     "platform": "",
     "cast": "Brie Larson",
     "dir": "",
+    "type": "Movie",
     "releasedate": 2017
   },
-                                   {
+  {
     "name": "Girlhood",
     "posterImage": "images/girlhood.jpg", 
     "movieTitle": "Girlhood",
@@ -732,6 +765,7 @@ var media = [
     "platform": "",
     "cast": "",
     "dir": "",
+    "type": "Movie",
     "releasedate": 2017
   },
     {
@@ -745,8 +779,8 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2017,
-    "trailer": "https://www.youtube.com/watch?v=p9j8RGTqju0"
   },
   {
     "name": "Elle",
@@ -759,6 +793,7 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2017
   },
   {
@@ -772,6 +807,7 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2016
   },
   {
@@ -785,6 +821,7 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2016
   },
   {
@@ -798,6 +835,7 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2003
   },
   {
@@ -811,6 +849,7 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "Amazon Prime",
+    "type": "Movie",
     "releasedate": 2007
   },
   {
@@ -824,6 +863,7 @@ var media = [
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2019
             
   },
@@ -838,6 +878,7 @@ var media = [
     "review": "Modern Day Frankenstein. Alicia Vikander. Shit. ",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1970
   },
   {
@@ -851,6 +892,7 @@ var media = [
     "review": "Modern Day Frankenstein. Alicia Vikander. Shit. ",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1980
             
   },
@@ -865,6 +907,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2003
   },
   {
@@ -878,6 +921,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2005
   },
   {
@@ -891,6 +935,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1998
   },
   {
@@ -904,6 +949,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2000
   },
   {
@@ -917,6 +963,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2017
   },
   {
@@ -930,6 +977,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2016
   },
   {
@@ -943,6 +991,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 2016
   },
   {
@@ -956,6 +1005,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -969,6 +1019,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -982,6 +1033,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -995,6 +1047,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1008,6 +1061,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1021,6 +1075,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1034,6 +1089,7 @@ var media = [
     "review": "d",
     "recommendations": "If you like this watch...",
     "platform": "d",
+    "type": "Movie",
     "releasedate": "2017-03-31"
   },
     
@@ -1048,6 +1104,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1061,6 +1118,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1074,6 +1132,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1087,6 +1146,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1100,6 +1160,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1113,6 +1174,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1126,6 +1188,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1139,6 +1202,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1152,6 +1216,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1165,6 +1230,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1191,6 +1257,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1204,6 +1271,7 @@ var media = [
     "review": "",
     "recommendations": "If you like this watch...",
     "platform": "",
+    "type": "Movie",
     "releasedate": 1997
   },
   {
@@ -1217,6 +1285,7 @@ var media = [
     "review": "Another classic Swanberg film. Examines the addictive and detrimental impact of gambling. Enjoyed allusion to 'The Hustler' and Fast Eddie.",
     "recommendations": "Happy Christmas, Drinking Buddies",
     "platform": "Netflix",
+    "type": "Movie",
     "releasedate": 2017
   },
   {
@@ -1230,6 +1299,7 @@ var media = [
     "review": "Another classic Swanberg film. Examines the addictive and detrimental impact of gambling. Enjoyed allusion to 'The Hustler' and Fast Eddie.",
     "recommendations": "Happy Christmas, Drinking Buddies",
     "platform": "Netflix",
+    "type": "Movie",
     "releasedate": 2017
   },
   {
@@ -1243,6 +1313,7 @@ var media = [
     "review": "Swanberg's sweet spot is creating character's . Examines the addictive and detrimental impact of gambling. Enjoyed allusion to 'The Hustler' and Fast Eddie.",
     "recommendations": "Win It All, Drinking Buddies",
     "platform": "Netflix",
+    "type": "Movie",
     "releasedate": 2017
   },
   {
@@ -1256,127 +1327,15 @@ var media = [
     "review": "Swanberg's sweet spot is creating character's . Examines the addictive and detrimental impact of gambling. Enjoyed allusion to 'The Hustler' and Fast Eddie.",
     "recommendations": "Win It All, Drinking Buddies",
     "platform": "Netflix",
+    "type": "Movie",
     "releasedate": 2017
   }
                                      
-    ]
-
-var tv2see = [
-  {
-    "name": "GoT",
-    "posterImage": "images/got.jpg", 
-    "movieTitle": "Game of Thrones",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017,
-    "trailer": src="https://www.youtube.com/watch?v=p9j8RGTqju0"
-  },
-      {
-    "name": "13reasonswhy",
-    "posterImage": "images/13reasons.jpg", 
-    "movieTitle": "13 Reasons Why",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017
-  },
-  {
-    "name": "Animals",
-    "posterImage": "images/13reasons.jpg", 
-    "movieTitle": "13 Reasons Why",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017
-  },
-      {
-    "name": "Atlanta",
-    "posterImage": "images/13reasons.jpg", 
-    "movieTitle": "13 Reasons Why",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017
-  },
-          {
-    "name": "Black-ish",
-    "posterImage": "images/13reasons.jpg", 
-    "movieTitle": "13 Reasons Why",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017
-  },
-              {
-    "name": "Biglittelies",
-    "posterImage": "images/13reasons.jpg", 
-    "movieTitle": "13 Reasons Why",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017
-  },
-                 {
-    "name": "Empire",
-    "posterImage": "images/empire.jpg", 
-    "movieTitle": "Empire",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017
-  },
-                     {
-    "name": "Legion",
-    "posterImage": "images/legion.jpg", 
-    "movieTitle": "Legion",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017
-  },
-                         {
-    "name": "Madmen",
-    "posterImage": "images/madmen.jpg", 
-    "movieTitle": "Mad Men",
-    "rtRating": 98,
-    "synopsis": "Synopsis of movie goes here.",
-    "dateofrelease": "July 21, 2017",
-    "recommendations": "If you like this watch...",
-    "platform": "",
-    "cast": "Jenny Slate, Jay Duplass",
-    "releasedate": 2017
-  }
-];
+    ];
 
 var prev_handler = window.onload;
 window.onload = function (event) {
     for (i = 0; i < media.length; i++) { 
-        console.log(media[i]);
         var movie = media[i];
         var elem = $.parseHTML(movietemplate);
         $("#all-the-movies").append(elem);
@@ -1384,6 +1343,7 @@ window.onload = function (event) {
         $(elem).find("p.rtRating").html(movie.rtRating);
       $(elem).find("p.myRating").html(movie.myRating);
       $(elem).find("p.platform").html(movie.platform);
+      $(elem).find("p.releasedate").html(movie.releasedate);
     }   
      event.preventDefault();
 
@@ -1401,7 +1361,6 @@ media.sort(function(a, b){
 
 function displayWatchlist(event) {
     for (i = 0; i < media.length; i++) { 
-        console.log(media[i]);
         var movie = media[i];
         var elem = $.parseHTML(movietemplate);
         $("#all-the-movies").append(elem);
@@ -1409,6 +1368,7 @@ function displayWatchlist(event) {
         $(elem).find("p.rtRating").html(movie.rtRating);
       $(elem).find("p.myRating").html(movie.myRating);
       $(elem).find("p.platform").html(movie.platform);
+      $(elem).find("p.releasedate").html(movie.releasedate);
     }   
      event.preventDefault();
 }
@@ -1417,7 +1377,10 @@ var movietemplate = '<div class="movie-item">' +
                     '<h2 class="title"></h2>' +
                     '<img class="posterImage">' +
                     '<p class="tags"></p>' +
+                    '<div class="rt">' +
+                    '<img src="images/rt.png">' +
                     '<p class="rtRating"></p>' +
+                    '</div>' +
                     '<p class="myRating"></p>' +
                     '<p class="synopsis"></p>' +
                     '<p class="review"></p>' +
@@ -1428,22 +1391,13 @@ var movietemplate = '<div class="movie-item">' +
                     '</div>';
 
 
-function showTV (event) {
-  
-
-$( "li" )
-  .filter(function( index ) {
-    return $( "strong", this ).length === 1;
-  })
-  }
-
 /*
 function sortByDate(event) {
     media.sort(function(a, b){return a-b});
     $(elem).find("p.releasedate").html(movie.releasedate);
 }
 
-
+*/
 
 function compareByYear(lhs, rhs) {
   if (lhs.releasedate > rhs.releasedate) {
@@ -1457,13 +1411,13 @@ function compareByYear(lhs, rhs) {
 
  function sortByYear(event) {
     console.log("sort by year");
-    media.sort(compareByYear);
+    currentmedia.sort(compareByYear);
     $("#all-the-movies").empty();
-    displayWatchlist(event);
+    displayCurrentMedia();
     console.log(media);
     event.preventDefault();
 }
-*/
+
 
 function compareRottenRating(lhs, rhs) {
   if (lhs.rtRating > rhs.rtRating) {
@@ -1477,9 +1431,9 @@ function compareRottenRating(lhs, rhs) {
 
  function sortRottenRating(event) {
     console.log("sort by rotten tomatoes");
-    media.sort(compareRottenRating);
+    currentmedia.sort(compareRottenRating);
     $("#all-the-movies").empty();
-    displayWatchlist(event);
+    displayCurrentMedia();
     console.log(media);
     event.preventDefault();
 }
@@ -1496,28 +1450,111 @@ function compareMyRating(lhs, rhs) {
 
  function sortMyRating(event) {
     console.log("sort by stephflix");
-    media.sort(compareMyRating);
+    currentmedia.sort(compareMyRating);
     $("#all-the-movies").empty();
-    displayWatchlist(event);
+    displayCurrentMedia();
     console.log(media);
     event.preventDefault();
 }
 
 function compareName(lhs, rhs) {
-  if (lhs.name < rhs.name) {
+  if (lhs.name.toLowerCase() < rhs.name.toLowerCase()) {
     return -1;
   }
-  if (lhs.name > rhs.name) {
+  if (lhs.name.toLowerCase() > rhs.name.toLowerCase()) {
     return 1;
   }
   return 0;
 }
 
  function sortName(event) {
-    console.log("sort alphabeticallt");
-    media.sort(compareName);
+    console.log("sort alphabetically");
+    currentmedia.sort(compareName);
     $("#all-the-movies").empty();
-    displayWatchlist(event);
+    displayCurrentMedia();
     console.log(media);
     event.preventDefault();
 }
+/*
+
+function filterMedia(event) {
+  var filtered_movies = [];
+  for (i = 0; i < media.length; i++){
+    if (media[i].type == "Movie") {
+      filtered_movies.push(media[i]);
+    }
+  } 
+    $("#all-the-movies").empty();
+    displayFilteredMovies(filtered_movies);
+    console.log(media);
+    event.preventDefault();
+}
+
+function displayFilteredMovies(filterMedia) {
+    for (i = 0; i < filterMedia.length; i++) { 
+        console.log(filterMedia[i]);
+        var movie = filterMedia[i];
+        var elem = $.parseHTML(movietemplate);
+        $("#all-the-movies").append(elem);
+        $(elem).find("img.posterImage").attr("src", movie.posterImage);
+        $(elem).find("p.rtRating").html(movie.rtRating);
+      $(elem).find("p.myRating").html(movie.myRating);
+      $(elem).find("p.platform").html(movie.platform);
+      $(elem).find("p.releasedate").html(movie.releasedate);
+    }   
+}
+*/
+
+function filterMovies(event) {
+  currentmedia = [];
+  for (i = 0; i < media.length; i++){
+    if (media[i].type == "Movie") {
+      currentmedia.push(media[i]);
+    }
+  } 
+    $("#all-the-movies").empty();
+    displayCurrentMedia();
+    console.log(media);
+    event.preventDefault();
+}
+
+function filterTv(event) {
+  currentmedia = [];
+  for (i = 0; i < media.length; i++){
+    if (media[i].type == "TV") {
+      currentmedia.push(media[i]);
+    }
+  } 
+    $("#all-the-movies").empty();
+    displayCurrentMedia();
+    console.log(media);
+    event.preventDefault();
+}
+
+function filterNetflix(event) {
+  currentmedia = [];
+  for (i = 0; i < media.length; i++){
+    if (media[i].platform == "Netflix") {
+      currentmedia.push(media[i]);
+    }
+  } 
+    $("#all-the-movies").empty();
+    displayCurrentMedia();
+    console.log(media);
+    event.preventDefault();
+}
+
+function displayCurrentMedia () {
+    for (i = 0; i < currentmedia.length; i++) { 
+        console.log(currentmedia[i]);
+        var movie = currentmedia[i];
+        var elem = $.parseHTML(movietemplate);
+        $("#all-the-movies").append(elem);
+        $(elem).find("img.posterImage").attr("src", movie.posterImage);
+        $(elem).find("p.rtRating").html(movie.rtRating);
+      $(elem).find("p.myRating").html(movie.myRating);
+      $(elem).find("p.platform").html(movie.platform);
+      $(elem).find("p.releasedate").html(movie.releasedate);
+    }   
+}
+

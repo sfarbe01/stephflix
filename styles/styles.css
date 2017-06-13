@@ -419,3 +419,8 @@ body, ul, li {
 body {
   background-color: #ccc;
 }
+
+.rt {
+  width: 100%;
+  float: left;
+}

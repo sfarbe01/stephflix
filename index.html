@@ -16,23 +16,23 @@
 <div id='cssmenu'>
 <ul>
    <li class='active'><a href='index.html'><span>Home</span></a></li>
-   <li class='last'><a href="tvwatchlist.html"><span>TV </span></a></li>
-  <li class='last'><a href="moviewatchlist.html"><span>Movies </span></a></li>
+   <li class='last'><a onclick="filterTv(event)"><span>TV </span></a></li>
+  <li class='last'><a onclick="filterMovies(event)"><span>Movies </span></a></li>
 </ul>
 </div>
 <div id='cssmenu2'>
 <ul>
    <li class='active'><a href='#'><span>Sorts</span></a></li>
     <li><a onclick="sortName(event)"><span>A/Z</span></a></li>
-   <li><a onclick="sortRottenRating(event)"><span>By Stephlix Rating</span></a></li>
+   <li><a onclick="sortMyRating(event)"><span>By Stephlix Rating</span></a></li>
    <li class='last'><a onclick="sortRottenRating(event)"><span>Rotten Tomatoes Rating</span></a></li>
-  <li><a href='#'><span>By Year</span></a></li>
+  <li><a onclick="sortByYear(event)"><span>By Year</span></a></li>
 </ul>
 </div>
 <div id='cssmenu3'>
 <ul>
    <li class='active'><a href='#'><span>Platform Filters</span></a></li>
-   <li><a href='#'><span>Netflix</span></a></li>
+   <li><a onclick="filterNetflix(event)"><span>Netflix</span></a></li>
    <li><a href='#'><span>Amazon Prime</span></a></li>
    <li class='last'><a href='#'><span>HBO</span></a></li>
    <li class='last'><a href='#'><span>Hulu</span></a></li>
