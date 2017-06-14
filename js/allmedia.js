@@ -1614,7 +1614,7 @@ function filterOther(event) {
     event.preventDefault();
 }
 
-function displayCurrentMedia (currentmedia) {
+function displayCurrentMedia (event) {
     for (i = 0; i < currentmedia.length; i++) { 
         console.log(currentmedia[i]);
         var movie = currentmedia[i];
