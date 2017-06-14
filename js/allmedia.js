@@ -1444,6 +1444,7 @@ function compareRottenRating(lhs, rhs) {
 }
 
  function sortRottenRating(event) {
+   currentmedia = media
     console.log("sort by rotten tomatoes");
     currentmedia.sort(compareRottenRating);
     $("#all-the-movies").empty();
@@ -1463,6 +1464,7 @@ function compareMyRating(lhs, rhs) {
 }
 
  function sortMyRating(event) {
+   currentmedia = media
     console.log("sort by stephflix");
     currentmedia.sort(compareMyRating);
     $("#all-the-movies").empty();
@@ -1482,6 +1484,7 @@ function compareName(lhs, rhs) {
 }
 
  function sortName(event) {
+   currentmedia = media
     console.log("sort alphabetically");
     currentmedia.sort(compareName);
     $("#all-the-movies").empty();
@@ -1544,7 +1547,7 @@ function filterTv(event) {
     console.log(media);
     event.preventDefault();
 }
-
+/*
 function filterNetflix(event) {
   currentmedia = [];
   for (i = 0; i < media.length; i++){
@@ -1609,6 +1612,7 @@ function filterOther(event) {
     console.log(currentmediamedia);
     event.preventDefault();
 }
+*/
 
 function displayCurrentMedia () {
     for (i = 0; i < currentmedia.length; i++) { 
@@ -1623,15 +1627,15 @@ function displayCurrentMedia () {
       $(elem).find("p.releasedate").html(movie.releasedate);
     }  
 }
-/*
+
 function filterPlatform(event, platform) {
+  currentmedia = [];
   for (i = 0; i < media.length; i++){
-    if (currentmedia[i] == platform) {
+    if (media[i].platform == platform) {
       currentmedia.push(media[i]);
-  } 
+  }}
     $("#all-the-movies").empty();
     displayCurrentMedia();
     console.log(media);
     event.preventDefault();
 }
-  */
