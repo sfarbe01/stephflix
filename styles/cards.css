@@ -1,0 +1,53 @@
+.card {
+    box-shadow: 10px 10px 8px 0 rgba(0,50,50,0.8);
+    transition: 0.3s;
+    width: 100%;
+    height: 600px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+.container {
+    padding: 2px 16px;
+    
+    
+}
+
+.rt {
+  display: block;
+  float:left;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.buttonsyn{
+  background-color: teal;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 5px;
+}

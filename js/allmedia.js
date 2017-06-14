@@ -106,7 +106,7 @@ var media = [
     "type": "TV",
     "releasedate": "2007-07-19"
   },
-   {
+  {
     "name": "Bojack",
     "posterImage": "images/bojack.jpg",
     "movieTitle": "Bojack Horseman",
@@ -117,7 +117,7 @@ var media = [
     "review": "",
     "recommendations": "",
     "platform": "Netflix",
-     "type": "TV",
+    "type": "TV",
     "releasedate": "2014-08-22"
   },
   {
@@ -527,24 +527,24 @@ var media = [
     "releasedate": "08/07/2005"
   },
   {
-   "name": "Landline",
-   "posterImage": "images/landline.jpg", 
-   "movieTitle": "Landline",
-   "tags": "strong female lead, uplifting, ",
-   "rtRating": 76,
-   "myRating": 0,
-   "synopsis": "When two sisters suspect their father (John Turturro) may be having an affair, it sends them into a tailspin that reveals cracks in the family façade. For the first time, older sister Dana (Jenny Slate), recently engaged and struggling with her own fidelity, finds herself bonding with her wild teenage sister Ali (Abby Quinn). The two try to uncover the truth without tipping off their mother (Edie Falco) and discover the messy reality of love and sex in the process. Set in 1990s Manhattan, Landline is a warm, insightful and comedic drama about a family united by secrets and lies, co-written and directed by Gillian Robespierre (Obvious Child).",
-   "dateofrelease": "July 21, 2017",
-   "recommendations": "If you like this watch...",
-   "platform": "",
-   "cast": "Jenny Slate, Jay Duplass",
-   "type": "Movie",
-   "releasedate": "07/21/2017" 
+    "name": "Landline",
+    "posterImage": "images/landline.jpg",
+    "movieTitle": "Landline",
+    "tags": "strong female lead, uplifting, ",
+    "rtRating": 76,
+    "myRating": 0,
+    "synopsis": "When two sisters suspect their father (John Turturro) may be having an affair, it sends them into a tailspin that reveals cracks in the family façade. For the first time, older sister Dana (Jenny Slate), recently engaged and struggling with her own fidelity, finds herself bonding with her wild teenage sister Ali (Abby Quinn). The two try to uncover the truth without tipping off their mother (Edie Falco) and discover the messy reality of love and sex in the process. Set in 1990s Manhattan, Landline is a warm, insightful and comedic drama about a family united by secrets and lies, co-written and directed by Gillian Robespierre (Obvious Child).",
+    "dateofrelease": "July 21, 2017",
+    "recommendations": "If you like this watch...",
+    "platform": "",
+    "cast": "Jenny Slate, Jay Duplass",
+    "type": "Movie",
+    "releasedate": "07/21/2017"
   },
   {
-   "name": "Dean",
-   "posterImage": "images/dean.jpg", 
-   "movieTitle": "Dean",
+    "name": "Dean",
+    "posterImage": "images/dean.jpg",
+    "movieTitle": "Dean",
     "tags": "strong female lead, uplifting, ",
     "rtRating": 61,
     "synopsis": "Writer/Director/Comedian Demetri Martin stars alongside Academy Award winner Kevin Kline in this comedic and heartfelt tale about a father and son coming to terms with love, loss and everything in between. Dean (Martin) is an illustrator whose unwillingness to deal with the recent death of his mother means escaping his hometown of New York for an interview with an ad agency in Los Angeles. His retired engineer dad Robert (Kline) takes a more regimented approach to grief, including putting the family home up for sale. Both father and son set out on their own paths to find a new normal as unexpected circumstances and potential new love interests threaten to thwart all plans.",
@@ -555,9 +555,9 @@ var media = [
     "type": "Movie",
     "releasedate": "06/02/2017"
   },
-   {
+  {
     "name": "BigSick",
-    "posterImage": "images/bigsick.jpg", 
+    "posterImage": "images/bigsick.jpg",
     "movieTitle": "The Big Sick",
     "tags": "strong female lead, uplifting, ",
     "rtRating": 97,
@@ -567,11 +567,11 @@ var media = [
     "platform": "",
     "cast": "Jenny Slate, Jay Duplass",
     "type": "Movie",
-    "releasedate": "06/23/2017" 
+    "releasedate": "06/23/2017"
   },
   {
     "name": "ABiggerSplash",
-    "posterImage": "images/biggersplash.jpg", 
+    "posterImage": "images/biggersplash.jpg",
     "movieTitle": "A Bigger Splash",
     "tags": "",
     "rtRating": 89,
@@ -584,7 +584,7 @@ var media = [
   },
   {
     "name": "AManCalledOve",
-    "posterImage": "images/amancalledove.jpg", 
+    "posterImage": "images/amancalledove.jpg",
     "movieTitle": "A Mah Called Ove",
     "tags": "",
     "rtRating": 91,
@@ -597,7 +597,7 @@ var media = [
   },
   {
     "name": "AMonsterCalls",
-    "posterImage": "images/monstercalls.jpg", 
+    "posterImage": "images/monstercalls.jpg",
     "movieTitle": "A Monster Calls",
     "tags": "",
     "rtRating": 87,
@@ -610,7 +610,7 @@ var media = [
   },
   {
     "name": "AUnitedKingdom",
-    "posterImage": "images/unitedkingdom.jpg", 
+    "posterImage": "images/unitedkingdom.jpg",
     "movieTitle": "A United Kingdom",
     "tags": "",
     "rtRating": 83,
@@ -619,11 +619,11 @@ var media = [
     "platform": "",
     "cast": "",
     "type": "Movie",
-    "releasedate": "02/10/2017" 
+    "releasedate": "02/10/2017"
   },
   {
     "name": "AmericanHoney",
-    "posterImage": "images/americanhoney.jpg", 
+    "posterImage": "images/americanhoney.jpg",
     "movieTitle": "American Honey",
     "tags": "",
     "rtRating": 79,
@@ -636,10 +636,10 @@ var media = [
   },
   {
     "name": "BattleofSexes",
-    "posterImage": "images/battlesexes.jpg", 
+    "posterImage": "images/battlesexes.jpg",
     "movieTitle": "Battle of the Sexes",
     "tags": "",
-    "rtRating": 00,
+    "rtRating": 0,
     "synopsis": "The electrifying 1973 tennis match between World number one Billie Jean King and ex-champ and serial hustler Bobby Riggs was billed as THE BATTLE OF THE SEXES and became the most watched televised sports event of all time. The match caught the zeitgeist and sparked a global conversation on gender equality, spurring on the feminist movement. Trapped in the media glare, King and Riggs were on opposites sides of a binary argument, but off-court each was fighting more personal and complex battles. With a supportive husband urging her to fight the Establishment for equal pay, the fiercely private King was also struggling to come to terms with her own sexuality, while Riggs gambled his legacy and reputation in a bid to relive the glories of his past. Together, Billie and Bobby served up a cultural spectacle that resonated far beyond the tennis courts and animated the discussions between men and women in bedrooms and boardrooms around the world.",
     "dateofrelease": "",
     "platform": "",
@@ -649,7 +649,7 @@ var media = [
   },
   {
     "name": "BandAid",
-    "posterImage": "images/bandaid.jpg", 
+    "posterImage": "images/bandaid.jpg",
     "movieTitle": "Band Aid",
     "tags": "",
     "rtRating": 83,
@@ -662,7 +662,7 @@ var media = [
   },
   {
     "name": "BeatrizatDinner",
-    "posterImage": "images/beatrizatdinner.jpg", 
+    "posterImage": "images/beatrizatdinner.jpg",
     "movieTitle": "Beatriz at Dinner",
     "tags": "",
     "rtRating": 80,
@@ -675,7 +675,7 @@ var media = [
   },
   {
     "name": "Beastsofnonation",
-    "posterImage": "images/beastsofnonation.jpg", 
+    "posterImage": "images/beastsofnonation.jpg",
     "movieTitle": "Beasts of No Nation",
     "tags": "",
     "rtRating": 91,
@@ -683,12 +683,12 @@ var media = [
     "dateofrelease": "",
     "platform": "Netflix",
     "cast": "",
-    "type": "Movie",                    
+    "type": "Movie",
     "releasedate": "10/16/2015"
   },
   {
     "name": "Callmebyyourname",
-    "posterImage": "images/callmebyyourname.jpg", 
+    "posterImage": "images/callmebyyourname.jpg",
     "movieTitle": "Call Me By Your Name",
     "tags": "",
     "rtRating": 100,
@@ -701,7 +701,7 @@ var media = [
   },
   {
     "name": "Catfight",
-    "posterImage": "images/catfight.jpg", 
+    "posterImage": "images/catfight.jpg",
     "movieTitle": "Catfight",
     "tags": "",
     "rtRating": 73,
@@ -710,11 +710,11 @@ var media = [
     "platform": "Netflix",
     "cast": "Sandra Oh",
     "type": "Movie",
-    "releasedate": "03/03/2017" 
+    "releasedate": "03/03/2017"
   },
   {
     "name": "Everybodywantssome",
-    "posterImage": "images/everybodywantssome.jpg", 
+    "posterImage": "images/everybodywantssome.jpg",
     "movieTitle": "Everybody Wants Some!",
     "tags": "",
     "rtRating": 86,
@@ -728,24 +728,24 @@ var media = [
   },
   {
     "name": "FitsandStarts",
-    "posterImage": "images/fitsandstarts.jpg", 
+    "posterImage": "images/fitsandstarts.jpg",
     "movieTitle": "Fits and Starts",
     "tags": "",
-    "rtRating": 00,
+    "rtRating": 0,
     "synopsis": "Synopsis of movie goes here.",
     "dateofrelease": "",
     "platform": "",
     "cast": "",
     "dir": "",
-    "type": "Movie", 
+    "type": "Movie",
     "releasedate": 2017
   },
   {
     "name": "Freefire",
-    "posterImage": "images/freefire.jpg", 
+    "posterImage": "images/freefire.jpg",
     "movieTitle": "Freefire",
     "tags": "",
-    "rtRating": 00,
+    "rtRating": 0,
     "synopsis": "Synopsis of movie goes here.",
     "dateofrelease": "",
     "platform": "",
@@ -756,10 +756,10 @@ var media = [
   },
   {
     "name": "Girlhood",
-    "posterImage": "images/girlhood.jpg", 
+    "posterImage": "images/girlhood.jpg",
     "movieTitle": "Girlhood",
     "tags": "",
-    "rtRating": 00,
+    "rtRating": 0,
     "synopsis": "Synopsis of movie goes here.",
     "dateofrelease": "",
     "platform": "",
@@ -768,7 +768,7 @@ var media = [
     "type": "Movie",
     "releasedate": 2017
   },
-    {
+  {
     "name": "20thCenturyWomen",
     "posterImage": "images/20thcwomen.jpg",
     "movieTitle": "20th Century Women",
@@ -780,7 +780,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "",
     "type": "Movie",
-    "releasedate": 2017,
+    "releasedate": 2017
   },
   {
     "name": "Elle",
@@ -1331,19 +1331,19 @@ var media = [
     "releasedate": 2017
   }
                                      
-    ];
+];
 
 var prev_handler = window.onload;
 window.onload = function (event) {
-    for (i = 0; i < media.length; i++) { 
-        var movie = media[i];
-        var elem = $.parseHTML(movietemplate);
-        $("#all-the-movies").append(elem);
-        $(elem).find("img.posterImage").attr("src", movie.posterImage);
-        $(elem).find("p.rtRating").html(movie.rtRating);
-      $(elem).find("p.myRating").html(movie.myRating);
-      $(elem).find("p.platform").html(movie.platform);
-      $(elem).find("p.releasedate").html(movie.releasedate);
+  for (i = 0; i < media.length; i++) { 
+    var movie = media[i];
+    var elem = $.parseHTML(movietemplate);
+    $("#all-the-movies").append(elem);
+    $(elem).find("img.posterImage").attr("src", movie.posterImage);
+    $(elem).find("p.rtRating").html(movie.rtRating);
+    $(elem).find("p.myRating").html(movie.myRating);
+    $(elem).find("p.platform").html(movie.platform);
+    $(elem).find("p.releasedate").html(movie.releasedate);
     }   
      event.preventDefault();
 
@@ -1360,20 +1360,22 @@ media.sort(function(a, b){
 
 
 function displayWatchlist(event) {
-    for (i = 0; i < media.length; i++) { 
-        var movie = media[i];
-        var elem = $.parseHTML(movietemplate);
-        $("#all-the-movies").append(elem);
-        $(elem).find("img.posterImage").attr("src", movie.posterImage);
-        $(elem).find("p.rtRating").html(movie.rtRating);
-      $(elem).find("p.myRating").html(movie.myRating);
-      $(elem).find("p.platform").html(movie.platform);
-      $(elem).find("p.releasedate").html(movie.releasedate);
+  for (i = 0; i < media.length; i++) { 
+    var movie = media[i];
+    var elem = $.parseHTML(movietemplate);
+    $("#all-the-movies").append(elem);
+    $(elem).find("img.posterImage").attr("src", movie.posterImage);
+    $(elem).find("p.rtRating").html(movie.rtRating);
+    $(elem).find("p.myRating").html(movie.myRating);
+    $(elem).find("p.platform").html(movie.platform);
+    $(elem).find("p.releasedate").html(movie.releasedate);
     }   
      event.preventDefault();
 }
 
-var movietemplate = '<div class="movie-item">' +
+var movietemplate = '<div class="container">' +
+                    '<div class="card">' +
+                    '<div class="movie-item">' +
                     '<h2 class="title"></h2>' +
                     '<img class="posterImage">' +
                     '<p class="tags"></p>' +
@@ -1387,9 +1389,25 @@ var movietemplate = '<div class="movie-item">' +
                     '<p class="recommendations"></p>' +
                     '<p class="releasedate"></p>' +
                     '<p class="platform"></p>' +
+                    '<button class="buttonsyn" onclick="seeSynopsis(event)">Synopsis</button>'
                     '<video class="trailer">' +
+                    '</div>' +
+                    '</div>' +
                     '</div>';
 
+function seeSynopsis(event) {
+  
+}
+/*
+var overlay = '<div class="synopsis" id="text">' '</div>'
+
+function displayText(event) {
+   for (i = 0; i < media.length; i++) { 
+    var movie = media[i];
+    var elem = $.parseHTML(overlay);
+     $(elem).find("p.synopsis").html(movie.synopsis);
+}
+*/
 
 /*
 function sortByDate(event) {
@@ -1433,7 +1451,7 @@ function compareRottenRating(lhs, rhs) {
     console.log("sort by rotten tomatoes");
     currentmedia.sort(compareRottenRating);
     $("#all-the-movies").empty();
-    displayCurrentMedia();
+    displayCurrentMedia(currentmedia);
     console.log(media);
     event.preventDefault();
 }
@@ -1452,7 +1470,7 @@ function compareMyRating(lhs, rhs) {
     console.log("sort by stephflix");
     currentmedia.sort(compareMyRating);
     $("#all-the-movies").empty();
-    displayCurrentMedia();
+    displayCurrentMedia(currentmedia);
     console.log(media);
     event.preventDefault();
 }
@@ -1471,7 +1489,7 @@ function compareName(lhs, rhs) {
     console.log("sort alphabetically");
     currentmedia.sort(compareName);
     $("#all-the-movies").empty();
-    displayCurrentMedia();
+    displayCurrentMedia(currentmedia);
     console.log(media);
     event.preventDefault();
 }
@@ -1544,7 +1562,59 @@ function filterNetflix(event) {
     event.preventDefault();
 }
 
-function displayCurrentMedia () {
+function filterHulu(event) {
+  currentmedia = [];
+  for (i = 0; i < media.length; i++){
+    if (media[i].platform == "Hulu") {
+      currentmedia.push(media[i]);
+    }
+  } 
+    $("#all-the-movies").empty();
+    displayCurrentMedia();
+    console.log(media);
+    event.preventDefault();
+}
+
+function filterAmazonPrime(event) {
+  currentmedia = [];
+  for (i = 0; i < media.length; i++){
+    if (media[i].platform == "Amazon Prime") {
+      currentmedia.push(media[i]);
+    }
+  } 
+    $("#all-the-movies").empty();
+    displayCurrentMedia();
+    console.log(media);
+    event.preventDefault();
+}
+
+function filterHboGo(event) {
+  currentmedia = [];
+  for (i = 0; i < media.length; i++){
+    if (media[i].platform == "HBO Go") {
+      currentmedia.push(media[i]);
+    }
+  } 
+    $("#all-the-movies").empty();
+    displayCurrentMedia();
+    console.log(media);
+    event.preventDefault();
+}
+
+function filterOther(event) {
+  currentmedia = [];
+  for (i = 0; i < media.length; i++){
+    if (media[i].platform == "") {
+      currentmedia.push(media[i]);
+    }
+  } 
+    $("#all-the-movies").empty();
+    displayCurrentMedia(currentmedia);
+    console.log(currentmediamedia);
+    event.preventDefault();
+}
+
+function displayCurrentMedia (currentmedia) {
     for (i = 0; i < currentmedia.length; i++) { 
         console.log(currentmedia[i]);
         var movie = currentmedia[i];
