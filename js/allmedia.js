@@ -1625,6 +1625,17 @@ function displayCurrentMedia (event) {
       $(elem).find("p.myRating").html(movie.myRating);
       $(elem).find("p.platform").html(movie.platform);
       $(elem).find("p.releasedate").html(movie.releasedate);
-    }   
+    }  
 }
-
+/*
+function filterPlatform(event, platform) {
+  for (i = 0; i < media.length; i++){
+    if (currentmedia[i] == platform) {
+      currentmedia.push(media[i]);
+  } 
+    $("#all-the-movies").empty();
+    displayCurrentMedia();
+    console.log(media);
+    event.preventDefault();
+}
+  */

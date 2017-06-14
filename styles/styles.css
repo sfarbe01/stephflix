@@ -114,6 +114,7 @@
   }
   #cssmenu ul li a:after {
     display: none;
+
   }
   #cssmenu ul li a:before {
     display: none;
