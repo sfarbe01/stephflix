@@ -149,7 +149,7 @@ var media = [
     "releasedate": "2009-09-17"
   },
   {
-    "name": "crashing",
+    "name": "Crashing",
     "posterImage": "images/crashing.jpg",
     "movieTitle": "Crashing",
     "tags": "strong female lead, uplifting, ",
@@ -191,7 +191,7 @@ var media = [
     "releasedate": "03/11/2016"
   },
   {
-    "name": "fleabag",
+    "name": "Fleabag",
     "posterImage": "images/fleabag.jpg",
     "movieTitle": "Fleabag",
     "tags": "strong female lead, uplifting, ",
@@ -429,7 +429,7 @@ var media = [
     "releasedate": "06/03/2001"
   },
   {
-    "name": "strangerthings",
+    "name": "Strangerthings",
     "posterImage": "images/strangerthings.jpg",
     "movieTitle": "Stranger Things",
     "tags": "strong female lead, uplifting, ",
@@ -443,7 +443,7 @@ var media = [
     "releasedate": "07/15/2016"
   },
   {
-    "name": "thegoodplace",
+    "name": "Thegoodplace",
     "posterImage": "images/thegoodplace.jpg",
     "movieTitle": "The Good Place",
     "tags": "strong female lead, uplifting, ",
@@ -457,7 +457,7 @@ var media = [
     "releasedate": "09/19/2016"
   },
   {
-    "name": "theoffice",
+    "name": "Theoffice",
     "posterImage": "images/theoffice.jpg",
     "movieTitle": "The Office",
     "tags": "strong female lead, uplifting, ",
@@ -471,7 +471,7 @@ var media = [
     "releasedate": "03/24/2005"
   },
   {
-    "name": "unbreakablekimmy",
+    "name": "Unbreakablekimmy",
     "posterImage": "images/unbreakablekimmy.jpg",
     "movieTitle": "Unbreakable Kimmy Schmidt",
     "tags": "strong female lead, uplifting, ",
@@ -485,7 +485,7 @@ var media = [
     "releasedate": "03/06/2015"
   },
   {
-    "name": "transparent",
+    "name": "Transparent",
     "posterImage": "images/transparent.jpg",
     "movieTitle": "Transparent",
     "tags": "strong female lead, uplifting, ",
@@ -499,7 +499,7 @@ var media = [
     "releasedate": "09/26/2014"
   },
   {
-    "name": "unitedstatesoftara",
+    "name": "Unitedstatesoftara",
     "posterImage": "images/unitedstatesoftara.jpg",
     "movieTitle": "United States of Tara",
     "tags": "strong female lead, uplifting, ",
@@ -513,7 +513,7 @@ var media = [
     "releasedate": "01/18/2009"
   },
   {
-    "name": "weeds",
+    "name": "Weeds",
     "posterImage": "images/weeds.jpg",
     "movieTitle": "Weeds",
     "tags": "strong female lead, uplifting, ",
@@ -556,7 +556,7 @@ var media = [
     "releasedate": "06/02/2017"
   },
   {
-    "name": "BigSick",
+    "name": "TheBigSick",
     "posterImage": "images/bigsick.jpg",
     "movieTitle": "The Big Sick",
     "tags": "strong female lead, uplifting, ",
@@ -1206,7 +1206,7 @@ var media = [
     "releasedate": 1997
   },
   {
-    "name": "Thebigask",
+    "name": "TheBigAsk",
     "posterImage": "images/thebigask.jpg",
     "movieTitle": "The Big Ask",
     "tags": "",
@@ -1220,7 +1220,7 @@ var media = [
     "releasedate": 1997
   },
   {
-    "name": "Theimitationgame",
+    "name": "TheImitationgame",
     "posterImage": "images/imitationgame.jpg",
     "movieTitle": "The Imitation Game",
     "tags": "",
@@ -1234,7 +1234,7 @@ var media = [
     "releasedate": 1997
   },
   {
-    "name": "Theintervention",
+    "name": "TheIntervention",
     "posterImage": "images/intervention.jpg",
     "movieTitle": "The Intervention",
     "tags": "",
@@ -1247,7 +1247,7 @@ var media = [
     "releasedate": 1997
   },
   {
-    "name": "Thejunglebook",
+    "name": "TheJunglebook",
     "posterImage": "images/junglebook.jpg",
     "movieTitle": "The Jungle Book",
     "tags": "",
@@ -1261,7 +1261,7 @@ var media = [
     "releasedate": 1997
   },
   {
-    "name": "Thelobster",
+    "name": "TheLobster",
     "posterImage": "images/lobster.jpg",
     "movieTitle": "The Lobster",
     "tags": "",
@@ -1289,7 +1289,7 @@ var media = [
     "releasedate": 2017
   },
   {
-    "name": "Drinking Buddies",
+    "name": "DrinkingBuddies",
     "posterImage": "images/drinkingbuddies.jpg",
     "movieTitle": "Drinking Buddies",
     "tags": "Joe Swanberg, Jake Johnson, Olivia Wilde, Anna Kendrick, ",
@@ -1303,7 +1303,7 @@ var media = [
     "releasedate": 2017
   },
   {
-    "name": "Happy Christmas",
+    "name": "HappyChristmas",
     "posterImage": "images/happychristmas.jpg",
     "movieTitle": "Happy Christmas",
     "tags": "Joe Swanberg, Anna Kendrick, Melanie Lynksy",
@@ -1317,7 +1317,7 @@ var media = [
     "releasedate": 2017
   },
   {
-    "name": "A League of Their Own",
+    "name": "ALeagueofTheirOwn",
     "posterImage": "images/leagueoftheirown.jpg",
     "movieTitle": "A League of Their Own",
     "tags": "Joe Swanberg, Anna Kendrick, Melanie Lynksy",
@@ -1389,16 +1389,12 @@ var movietemplate = '<div class="container">' +
                     '<p class="recommendations"></p>' +
                     '<p class="releasedate"></p>' +
                     '<p class="platform"></p>' +
-                    '<button class="buttonsyn" onclick="seeSynopsis(event)">Synopsis</button>'
-                    '<video class="trailer">' +
+                    '<button class="buttonsyn" onclick="seeSynopsis(event)">Synopsis</button>' +
                     '</div>' +
                     '</div>' +
                     '</div>';
-/*
-function seeSynopsis(event) {
-  
-}
 
+/*
 var overlay = '<div class="synopsis" id="text">' '</div>'
 
 function displayText(event) {
@@ -1416,7 +1412,7 @@ function sortByDate(event) {
 }
 
 */
-
+/*
 function compareByYear(lhs, rhs) {
   if (lhs.releasedate > rhs.releasedate) {
     return -1;
@@ -1435,7 +1431,7 @@ function compareByYear(lhs, rhs) {
     console.log(media);
     event.preventDefault();
 }
-
+*/
 
 function compareRottenRating(lhs, rhs) {
   if (lhs.rtRating > rhs.rtRating) {
@@ -1476,10 +1472,10 @@ function compareMyRating(lhs, rhs) {
 }
 
 function compareName(lhs, rhs) {
-  if (lhs.name.toLowerCase() < rhs.name.toLowerCase()) {
+  if (lhs.name < rhs.name) {
     return -1;
   }
-  if (lhs.name.toLowerCase() > rhs.name.toLowerCase()) {
+  if (lhs.name > rhs.name) {
     return 1;
   }
   return 0;
