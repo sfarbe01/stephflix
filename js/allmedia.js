@@ -1394,11 +1394,11 @@ var movietemplate = '<div class="container">' +
                     '</div>' +
                     '</div>' +
                     '</div>';
-
+/*
 function seeSynopsis(event) {
   
 }
-/*
+
 var overlay = '<div class="synopsis" id="text">' '</div>'
 
 function displayText(event) {
@@ -1451,7 +1451,7 @@ function compareRottenRating(lhs, rhs) {
     console.log("sort by rotten tomatoes");
     currentmedia.sort(compareRottenRating);
     $("#all-the-movies").empty();
-    displayCurrentMedia(currentmedia);
+    displayCurrentMedia();
     console.log(media);
     event.preventDefault();
 }
@@ -1470,7 +1470,7 @@ function compareMyRating(lhs, rhs) {
     console.log("sort by stephflix");
     currentmedia.sort(compareMyRating);
     $("#all-the-movies").empty();
-    displayCurrentMedia(currentmedia);
+    displayCurrentMedia();
     console.log(media);
     event.preventDefault();
 }
@@ -1489,7 +1489,7 @@ function compareName(lhs, rhs) {
     console.log("sort alphabetically");
     currentmedia.sort(compareName);
     $("#all-the-movies").empty();
-    displayCurrentMedia(currentmedia);
+    displayCurrentMedia();
     console.log(media);
     event.preventDefault();
 }
@@ -1609,12 +1609,12 @@ function filterOther(event) {
     }
   } 
     $("#all-the-movies").empty();
-    displayCurrentMedia(currentmedia);
+    displayCurrentMedia();
     console.log(currentmediamedia);
     event.preventDefault();
 }
 
-function displayCurrentMedia (event) {
+function displayCurrentMedia () {
     for (i = 0; i < currentmedia.length; i++) { 
         console.log(currentmedia[i]);
         var movie = currentmedia[i];
