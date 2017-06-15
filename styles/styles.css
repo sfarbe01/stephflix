@@ -1,3 +1,7 @@
+hover {
+  cursor: pointer;
+}
+
 /*Navigation*/
 #cssmenu {
   background: #cde4ea;
@@ -49,6 +53,7 @@
 }
 #cssmenu ul li a:hover {
   color: #333333;
+  cursor: pointer;
 }
 #cssmenu ul li a:hover:before {
   width: 100%;
@@ -172,6 +177,7 @@
 }
 #cssmenu2 ul li a:hover {
   color: #333333;
+  cursor: pointer;
 }
 #cssmenu2 ul li a:hover:before {
   width: 100%;
@@ -295,6 +301,7 @@
 }
 #cssmenu3 ul li a:hover {
   color: #333333;
+  cursor: pointer;
 }
 #cssmenu3 ul li a:hover:before {
   width: 100%;
