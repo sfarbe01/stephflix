@@ -1375,7 +1375,10 @@ var movietemplate = '<div class="container">' +
                     '<img src="images/rt.png">' +
                     '<p class="rtRating"></p>' +
                     '</div>' +
+                    '<div class="myrate">' +
+                    '<img src="images/stephflixfavicon.png">' +
                     '<p class="myRating"></p>' +
+                    '</div>' +
                     '<p class="review"></p>' +
                     '<p class="recommendations"></p>' +
                     '<p class="releasedate"></p>' +
