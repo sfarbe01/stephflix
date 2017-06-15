@@ -1335,17 +1335,24 @@ var media = [
 
 var prev_handler = window.onload;
 window.onload = function (event) {
-  for (i = 0; i < media.length; i++) { 
-    var movie = media[i];
-    var elem = $.parseHTML(movietemplate);
-    $("#all-the-movies").append(elem);
-    $(elem).find("img.posterImage").attr("src", movie.posterImage);
-    $(elem).find("p.rtRating").html(movie.rtRating);
-    $(elem).find("p.myRating").html(movie.myRating);
-    $(elem).find("p.platform").html(movie.platform);
-    $(elem).find("p.releasedate").html(movie.releasedate);
-    }   
+  currentmedia = media
+  displayCurrentMedia();
      event.preventDefault();
+  
+// Get the modal
+var modal = document.getElementById('myModal');
+
+$("#close").click(function (event) {
+  $("#myModal").hide();
+  console.log("spanclose")
+})
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        $("#myModal").hide();
+    }
+}
 
 }
 if (prev_handler) {
@@ -1358,21 +1365,6 @@ media.sort(function(a, b){
     return 0;
 })
 
-
-function displayWatchlist(event) {
-  for (i = 0; i < media.length; i++) { 
-    var movie = media[i];
-    var elem = $.parseHTML(movietemplate);
-    $("#all-the-movies").append(elem);
-    $(elem).find("img.posterImage").attr("src", movie.posterImage);
-    $(elem).find("p.rtRating").html(movie.rtRating);
-    $(elem).find("p.myRating").html(movie.myRating);
-    $(elem).find("p.platform").html(movie.platform);
-    $(elem).find("p.releasedate").html(movie.releasedate);
-    }   
-     event.preventDefault();
-}
-
 var movietemplate = '<div class="container">' +
                     '<div class="card">' +
                     '<div class="movie-item">' +
@@ -1384,7 +1376,6 @@ var movietemplate = '<div class="container">' +
                     '<p class="rtRating"></p>' +
                     '</div>' +
                     '<p class="myRating"></p>' +
-                    '<p class="synopsis"></p>' +
                     '<p class="review"></p>' +
                     '<p class="recommendations"></p>' +
                     '<p class="releasedate"></p>' +
@@ -1394,24 +1385,13 @@ var movietemplate = '<div class="container">' +
                     '</div>' +
                     '</div>';
 
-/*
-var overlay = '<div class="synopsis" id="text">' '</div>'
-
-function displayText(event) {
-   for (i = 0; i < media.length; i++) { 
-    var movie = media[i];
-    var elem = $.parseHTML(overlay);
-     $(elem).find("p.synopsis").html(movie.synopsis);
-}
-*/
-
-/*
-function sortByDate(event) {
-    media.sort(function(a, b){return a-b});
-    $(elem).find("p.releasedate").html(movie.releasedate);
+function seeSynopsis(event) {
+  $("h3.title").html($(event.target).data("title"));
+  $("p.synopsis").html($(event.target).data("synopsis"));
+  $("#myModal").show();
 }
 
-*/
+
 /*
 function compareByYear(lhs, rhs) {
   if (lhs.releasedate > rhs.releasedate) {
@@ -1492,35 +1472,6 @@ function compareName(lhs, rhs) {
     console.log(media);
     event.preventDefault();
 }
-/*
-
-function filterMedia(event) {
-  var filtered_movies = [];
-  for (i = 0; i < media.length; i++){
-    if (media[i].type == "Movie") {
-      filtered_movies.push(media[i]);
-    }
-  } 
-    $("#all-the-movies").empty();
-    displayFilteredMovies(filtered_movies);
-    console.log(media);
-    event.preventDefault();
-}
-
-function displayFilteredMovies(filterMedia) {
-    for (i = 0; i < filterMedia.length; i++) { 
-        console.log(filterMedia[i]);
-        var movie = filterMedia[i];
-        var elem = $.parseHTML(movietemplate);
-        $("#all-the-movies").append(elem);
-        $(elem).find("img.posterImage").attr("src", movie.posterImage);
-        $(elem).find("p.rtRating").html(movie.rtRating);
-      $(elem).find("p.myRating").html(movie.myRating);
-      $(elem).find("p.platform").html(movie.platform);
-      $(elem).find("p.releasedate").html(movie.releasedate);
-    }   
-}
-*/
 
 function filterMovies(event) {
   currentmedia = [];
@@ -1544,79 +1495,11 @@ function filterTv(event) {
   } 
     $("#all-the-movies").empty();
     displayCurrentMedia();
-    console.log(media);
     event.preventDefault();
 }
-/*
-function filterNetflix(event) {
-  currentmedia = [];
-  for (i = 0; i < media.length; i++){
-    if (media[i].platform == "Netflix") {
-      currentmedia.push(media[i]);
-    }
-  } 
-    $("#all-the-movies").empty();
-    displayCurrentMedia();
-    console.log(media);
-    event.preventDefault();
-}
-
-function filterHulu(event) {
-  currentmedia = [];
-  for (i = 0; i < media.length; i++){
-    if (media[i].platform == "Hulu") {
-      currentmedia.push(media[i]);
-    }
-  } 
-    $("#all-the-movies").empty();
-    displayCurrentMedia();
-    console.log(media);
-    event.preventDefault();
-}
-
-function filterAmazonPrime(event) {
-  currentmedia = [];
-  for (i = 0; i < media.length; i++){
-    if (media[i].platform == "Amazon Prime") {
-      currentmedia.push(media[i]);
-    }
-  } 
-    $("#all-the-movies").empty();
-    displayCurrentMedia();
-    console.log(media);
-    event.preventDefault();
-}
-
-function filterHboGo(event) {
-  currentmedia = [];
-  for (i = 0; i < media.length; i++){
-    if (media[i].platform == "HBO Go") {
-      currentmedia.push(media[i]);
-    }
-  } 
-    $("#all-the-movies").empty();
-    displayCurrentMedia();
-    console.log(media);
-    event.preventDefault();
-}
-
-function filterOther(event) {
-  currentmedia = [];
-  for (i = 0; i < media.length; i++){
-    if (media[i].platform == "") {
-      currentmedia.push(media[i]);
-    }
-  } 
-    $("#all-the-movies").empty();
-    displayCurrentMedia();
-    console.log(currentmediamedia);
-    event.preventDefault();
-}
-*/
 
 function displayCurrentMedia () {
     for (i = 0; i < currentmedia.length; i++) { 
-        console.log(currentmedia[i]);
         var movie = currentmedia[i];
         var elem = $.parseHTML(movietemplate);
         $("#all-the-movies").append(elem);
@@ -1625,6 +1508,8 @@ function displayCurrentMedia () {
       $(elem).find("p.myRating").html(movie.myRating);
       $(elem).find("p.platform").html(movie.platform);
       $(elem).find("p.releasedate").html(movie.releasedate);
+      $(elem).find("button.buttonsyn").data("synopsis", movie.synopsis);
+      $(elem).find("button.buttonsyn").data("title", movie.movieTitle);
     }  
 }
 
@@ -1636,6 +1521,5 @@ function filterPlatform(event, platform) {
   }}
     $("#all-the-movies").empty();
     displayCurrentMedia();
-    console.log(media);
     event.preventDefault();
 }

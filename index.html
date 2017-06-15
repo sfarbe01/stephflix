@@ -33,18 +33,26 @@
 <div id='cssmenu3'>
 <ul>
    <li class='active'><a href='#'><span>Filter by Platform</span></a></li>
-   <li><a onclick="filterNetflix(event)"><span>Netflix</span></a></li>
-   <li><a onclick="filterAmazonPrime(event)"><span>Amazon Prime</span></a></li>
-   <li class='last'><a onclick="filterHboGo(event, 'HBO Go')"><span>HBO</span></a></li>
+   <li><a onclick="filterPlatform(event, 'Netflix')"><span>Netflix</span></a></li>
+   <li><a onclick="filterPlatform(event, 'Amazon Prime')"><span>Amazon Prime</span></a></li>
+   <li class='last'><a onclick="filterPlatform(event, 'HBO Go')"><span>HBO</span></a></li>
    <li class='last'><a onclick="filterPlatform(event, 'Hulu')"><span>Hulu</span></a></li>
-   <li class='last'><a onclick="filterOther(event)"><span>Other</span></a></li>
+   <li class='last'><a onclick="filterPlatform(event, '')"><span>Other</span></a></li>
 </ul>
 </div>
 <div class="media">
   <div class="boxes" id="all-the-movies">
-  <div class="w3-container">
-        <div class="synopsis"></div>
-      </div>
+</div>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close" id="close">&times;</span>
+    <h3 class="title"></h3>
+    <p class="synopsis">Some text in the Modal..</p>
+  </div>
+
 </div>
 </div> 
 </body>
