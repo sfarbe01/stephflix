@@ -55,6 +55,12 @@ hover {
   color: #333333;
   cursor: pointer;
 }
+
+#cssmenu ul li a:active {
+  color: #333333;
+  cursor: pointer;
+}
+
 #cssmenu ul li a:hover:before {
   width: 100%;
 }
@@ -94,6 +100,7 @@ hover {
 #cssmenu ul li.active a:before {
   width: 100%;
 }
+
 #cssmenu.align-right li.last > a:after,
 #cssmenu.align-right li:last-child > a:after {
   display: block;
@@ -119,6 +126,7 @@ hover {
   }
   #cssmenu ul li a:after {
     display: none;
+    
 
   }
   #cssmenu ul li a:before {
