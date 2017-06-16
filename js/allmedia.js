@@ -1,4 +1,9 @@
 var currentmedia = [];
+/*
+var currensort = null;
+var currenttype = null;
+var currentplatform = null;
+*/
 
 var media = [
   {
@@ -12,7 +17,7 @@ var media = [
     "platform": "HBO Go",
     "cast": "",
     "type": "TV",
-    "releasedate": "2011-04-17"
+    "releasedate": 2011,
   },
   {
     "name": "13reasonswhy",
@@ -26,7 +31,8 @@ var media = [
     "platform": "Netflix",
     "cast": "",
     "type": "TV",
-    "releasedate": "2017-03-31"
+    "releasedate": 2017,
+    "link": "https://www.youtube.com/watch?v=JebwYGn5Z3E"
   },
   {
     "name": "Atlanta",
@@ -39,7 +45,7 @@ var media = [
     "platform": "FX",
     "cast": "Jenny Slate, Jay Duplass",
     "type": "TV",
-    "releasedate": "2016-16-09"
+    "releasedate": 2016
   },
   {
     "name": "Black-ish",
@@ -52,7 +58,7 @@ var media = [
     "platform": "Hulu",
     "cast": "",
     "type": "TV",
-    "releasedate": "2014-09-24"
+    "releasedate": 2014
   },
   {
     "name": "Biglittelies",
@@ -65,7 +71,7 @@ var media = [
     "platform": "HBO Go",
     "cast": "",
     "type": "TV",
-    "releasedate": "2017-02-19"
+    "releasedate": 2017
   },
   {
     "name": "Empire",
@@ -78,7 +84,7 @@ var media = [
     "platform": "Hulu",
     "cast": "",
     "type": "TV",
-    "releasedate": "2015-01-07"
+    "releasedate": 2015
   },
   {
     "name": "Legion",
@@ -91,7 +97,7 @@ var media = [
     "platform": "Hulu",
     "cast": "",
     "type": "TV",
-    "releasedate": "2017-02-08"
+    "releasedate": 2017
   },
   {
     "name": "Madmen",
@@ -104,7 +110,7 @@ var media = [
     "platform": "Netflix",
     "cast": "",
     "type": "TV",
-    "releasedate": "2007-07-19"
+    "releasedate": 2007
   },
   {
     "name": "Bojack",
@@ -118,7 +124,7 @@ var media = [
     "recommendations": "",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "2014-08-22"
+    "releasedate": 2014
   },
   {
     "name": "Catastrophe",
@@ -132,7 +138,7 @@ var media = [
     "recommendations": "",
     "platform": "Amazon Prime",
     "type": "TV",
-    "releasedate": "2015-06-19"
+    "releasedate": 2015
   },
   {
     "name": "Community",
@@ -146,7 +152,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
     "type": "TV",
-    "releasedate": "2009-09-17"
+    "releasedate": 2009
   },
   {
     "name": "Crashing",
@@ -160,7 +166,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "2016-01-11"
+    "releasedate": 2016
   },
   {
     "name": "Difficultpeople",
@@ -174,7 +180,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
     "type": "TV",
-    "releasedate": "08/05/2015"
+    "releasedate": 2015
   },
   {
     "name": "Flaked",
@@ -182,13 +188,13 @@ var media = [
     "movieTitle": "Flaked",
     "tags": "strong female lead, uplifting, ",
     "rtRating": 42,
-    "myRating": 6.5,
+    "myRating": 5,
     "synopsis": "A self-appointed ''guru'' named Chip falls for the object of his best friend's desire.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "03/11/2016"
+    "releasedate": 2016
   },
   {
     "name": "Fleabag",
@@ -202,7 +208,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Amazon Prime",
     "type": "TV",
-    "releasedate": "09/16/2016"
+    "releasedate": 2016
   },
   {
     "name": "Girls",
@@ -216,7 +222,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "HBO Go",
     "type": "TV",
-    "releasedate": "04/15/2012"
+    "releasedate": 2012
   },
   {
     "name": "Easy",
@@ -230,7 +236,7 @@ var media = [
     "recommendations": "",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "09/22/2016"
+    "releasedate": 2016
   },
   {
     "name": "Grace and frankie",
@@ -244,7 +250,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "05/08/2015"
+    "releasedate": 2015
   },
   {
     "name": "Happyendings",
@@ -258,7 +264,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
     "type": "TV",
-    "releasedate": "04/13/2011"
+    "releasedate": 2011
   },
   {
     "name": "highmeaintenance",
@@ -272,7 +278,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "HBO Go",
     "type": "TV",
-    "releasedate": "09/16/2016"
+    "releasedate": 2016
   },
   {
     "name": "Insecure",
@@ -286,7 +292,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "HBO Go",
     "type": "TV",
-    "releasedate": "10/09/2016"
+    "releasedate": 2016
   },
   {
     "name": "Love",
@@ -300,7 +306,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "02/19/2016"
+    "releasedate": 2016
   },
   {
     "name": "Janethevirgin",
@@ -314,7 +320,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "10/13/2014"
+    "releasedate": 2014
   },
   {
     "name": "Masterofnone",
@@ -328,7 +334,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "10/06/2015"
+    "releasedate": 2015
   },
   {
     "name": "Modernfamily",
@@ -342,7 +348,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
     "type": "TV",
-    "releasedate": "09/23/2009"
+    "releasedate": 2009
   },
   {
     "name": "Mozartinthejungle",
@@ -356,7 +362,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Amazon Prime",
     "type": "TV",
-    "releasedate": "12/23/2014"
+    "releasedate": 2014
   },
   {
     "name": "Newgirl",
@@ -370,7 +376,7 @@ var media = [
     "recommendations": "",
     "platform": "Netflix, Hulu",
     "type": "TV",
-    "releasedate": "09/20/2011"
+    "releasedate": 2011
   },
   {
     "name": "Orangeisthenewblack",
@@ -384,7 +390,7 @@ var media = [
     "recommendations": "",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "07/11/2013"
+    "releasedate": 2013
   },
   {
     "name": "Parenthood",
@@ -398,7 +404,7 @@ var media = [
     "recommendations": "",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "03/02/2010"
+    "releasedate": 2010
   },
   {
     "name": "Parksandrec",
@@ -412,7 +418,7 @@ var media = [
     "recommendations": "",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "04/09/2009"
+    "releasedate": 2009
   },
   {
     "name": "sixfeetunder",
@@ -424,9 +430,9 @@ var media = [
     "synopsis": "Life---and death---at a family-owned funeral home in Los Angeles plays out in this provocative, at times macabre series created by Oscar-winning screenwriter Alan Ball (`American Beauty'). A recipient of several Emmys, it's a compelling, superbly acted drama laced with considerable wit and poignancy. Each episode begins with a fresh corpse (including the clan's patriarch in the premiere), which usually has something to do with the ongoing dysfunction in and around the Fisher household.",
     "review": "If I could give this more than a 10 I would",
     "recommendations": "",
-    "platform": "HBO Go, Amazon Prime",
+    "platform": "HBO Go,",
     "type": "TV",
-    "releasedate": "06/03/2001"
+    "releasedate": 2001
   },
   {
     "name": "Strangerthings",
@@ -440,7 +446,7 @@ var media = [
     "recommendations": "",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "07/15/2016"
+    "releasedate": 2016
   },
   {
     "name": "Thegoodplace",
@@ -454,7 +460,7 @@ var media = [
     "recommendations": "",
     "platform": "Hulu",
     "type": "TV",
-    "releasedate": "09/19/2016"
+    "releasedate": 2016
   },
   {
     "name": "Theoffice",
@@ -468,7 +474,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "03/24/2005"
+    "releasedate": 2005
   },
   {
     "name": "Unbreakablekimmy",
@@ -482,7 +488,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "03/06/2015"
+    "releasedate": 2015
   },
   {
     "name": "Transparent",
@@ -496,7 +502,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "Amazon Prime",
     "type": "TV",
-    "releasedate": "09/26/2014"
+    "releasedate": 2014
   },
   {
     "name": "Unitedstatesoftara",
@@ -508,9 +514,9 @@ var media = [
     "synopsis": "Misadventures of a housewife with a personality disorder and a dysfunctional family.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
-    "platform": "Netflix",
+    "platform": "Hulu",
     "type": "TV",
-    "releasedate": "01/18/2009"
+    "releasedate": 2009
   },
   {
     "name": "Weeds",
@@ -518,13 +524,13 @@ var media = [
     "movieTitle": "Weeds",
     "tags": "strong female lead, uplifting, ",
     "rtRating": 77,
-    "myRating": 10,
+    "myRating": 9,
     "synopsis": "A suburban California widow deals pot to make ends meet after the unexpected death of her husband.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
     "type": "TV",
-    "releasedate": "08/07/2005"
+    "releasedate": 2005
   },
   {
     "name": "Landline",
@@ -539,7 +545,7 @@ var media = [
     "platform": "",
     "cast": "Jenny Slate, Jay Duplass",
     "type": "Movie",
-    "releasedate": "07/21/2017"
+    "releasedate": 2017
   },
   {
     "name": "Dean",
@@ -553,7 +559,7 @@ var media = [
     "platform": "",
     "cast": "Jenny Slate, Jay Duplass",
     "type": "Movie",
-    "releasedate": "06/02/2017"
+    "releasedate": 2017
   },
   {
     "name": "TheBigSick",
@@ -567,7 +573,7 @@ var media = [
     "platform": "",
     "cast": "Jenny Slate, Jay Duplass",
     "type": "Movie",
-    "releasedate": "06/23/2017"
+    "releasedate": 2017
   },
   {
     "name": "ABiggerSplash",
@@ -580,7 +586,7 @@ var media = [
     "platform": "Amazon Prime",
     "cast": "",
     "type": "Movie",
-    "releasedate": "05/04/2016"
+    "releasedate": 2016
   },
   {
     "name": "AManCalledOve",
@@ -593,7 +599,7 @@ var media = [
     "platform": "Amazon Prime",
     "cast": "",
     "type": "Movie",
-    "releasedate": "09/30/2016"
+    "releasedate": 2016
   },
   {
     "name": "AMonsterCalls",
@@ -606,7 +612,7 @@ var media = [
     "platform": "",
     "cast": "",
     "type": "Movie",
-    "releasedate": "01/06/2017"
+    "releasedate": 2017
   },
   {
     "name": "AUnitedKingdom",
@@ -619,7 +625,7 @@ var media = [
     "platform": "",
     "cast": "",
     "type": "Movie",
-    "releasedate": "02/10/2017"
+    "releasedate": 2017
   },
   {
     "name": "AmericanHoney",
@@ -632,7 +638,7 @@ var media = [
     "platform": "Amazon Prime",
     "cast": "",
     "type": "Movie",
-    "releasedate": "09/30/2016"
+    "releasedate": 2016
   },
   {
     "name": "BattleofSexes",
@@ -645,7 +651,7 @@ var media = [
     "platform": "",
     "cast": "",
     "type": "Movie",
-    "releasedate": "09/22/2017"
+    "releasedate": 2017
   },
   {
     "name": "BandAid",
@@ -658,7 +664,7 @@ var media = [
     "platform": "",
     "cast": "Adam Pally",
     "type": "Movie",
-    "releasedate": "06/02/2017"
+    "releasedate": 2017
   },
   {
     "name": "BeatrizatDinner",
@@ -671,7 +677,7 @@ var media = [
     "platform": "",
     "cast": "",
     "type": "Movie",
-    "releasedate": "06/09/2017"
+    "releasedate": 2017
   },
   {
     "name": "Beastsofnonation",
@@ -684,7 +690,7 @@ var media = [
     "platform": "Netflix",
     "cast": "",
     "type": "Movie",
-    "releasedate": "10/16/2015"
+    "releasedate": 2015
   },
   {
     "name": "Callmebyyourname",
@@ -697,7 +703,7 @@ var media = [
     "platform": "",
     "cast": "",
     "type": "Movie",
-    "releasedate": "11/24/2017"
+    "releasedate": 2017
   },
   {
     "name": "Catfight",
@@ -710,7 +716,7 @@ var media = [
     "platform": "Netflix",
     "cast": "Sandra Oh",
     "type": "Movie",
-    "releasedate": "03/03/2017"
+    "releasedate": 2017
   },
   {
     "name": "Everybodywantssome",
@@ -720,11 +726,11 @@ var media = [
     "rtRating": 86,
     "synopsis": "Synopsis of movie goes here.",
     "dateofrelease": "",
-    "platform": "",
+    "platform": "Amazon Prime",
     "cast": "",
     "dir": "Richard Linklater",
     "type": "Movie",
-    "releasedate": 2017
+    "releasedate": 2016
   },
   {
     "name": "FitsandStarts",
@@ -745,7 +751,7 @@ var media = [
     "posterImage": "images/freefire.jpg",
     "movieTitle": "Freefire",
     "tags": "",
-    "rtRating": 0,
+    "rtRating": 67,
     "synopsis": "Synopsis of movie goes here.",
     "dateofrelease": "",
     "platform": "",
@@ -759,14 +765,14 @@ var media = [
     "posterImage": "images/girlhood.jpg",
     "movieTitle": "Girlhood",
     "tags": "",
-    "rtRating": 0,
+    "rtRating": 96,
     "synopsis": "Synopsis of movie goes here.",
     "dateofrelease": "",
     "platform": "",
     "cast": "",
     "dir": "",
     "type": "Movie",
-    "releasedate": 2017
+    "releasedate": 2015
   },
   {
     "name": "20thCenturyWomen",
@@ -1395,7 +1401,6 @@ function seeSynopsis(event) {
 }
 
 
-/*
 function compareByYear(lhs, rhs) {
   if (lhs.releasedate > rhs.releasedate) {
     return -1;
@@ -1414,7 +1419,7 @@ function compareByYear(lhs, rhs) {
     console.log(media);
     event.preventDefault();
 }
-*/
+
 
 function compareRottenRating(lhs, rhs) {
   if (lhs.rtRating > rhs.rtRating) {
@@ -1427,6 +1432,7 @@ function compareRottenRating(lhs, rhs) {
 }
 
  function sortRottenRating(event) {
+   /*currensort = "RottenRating" */
    currentmedia = media
     console.log("sort by rotten tomatoes");
     currentmedia.sort(compareRottenRating);
@@ -1501,7 +1507,8 @@ function filterTv(event) {
     event.preventDefault();
 }
 
-function displayCurrentMedia () {
+function displayCurrentMedia() {
+  /*apply typefilter --- if not null*/ 
     for (i = 0; i < currentmedia.length; i++) { 
         var movie = currentmedia[i];
         var elem = $.parseHTML(movietemplate);

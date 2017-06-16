@@ -4,6 +4,7 @@
     width: 100%;
     height: 600px;
     padding: 10px;
+    margin: .75em;
 }
 
 .card:hover {
