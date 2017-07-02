@@ -12,7 +12,8 @@ var media = [
     "movieTitle": "Game of Thrones",
     "rtRating": 95,
     "myRating": 0,
-    "synopsis": "An adaptation of author George R.R. Martin's 'A Song of Ice and Fire' medieval fantasies about power struggles among the Seven Kingdoms of Westeros.",
+    "genre": "Fantasy",
+    "synopsis": "Nine noble families fight for control over the mythical lands of Westeros, while a forgotten race returns after being dormant for thousands of years.",
     "recommendations": "",
     "platform": "HBO Go",
     "cast": "",
@@ -25,14 +26,14 @@ var media = [
     "movieTitle": "13 Reasons Why",
     "rtRating": 86,
     "myRating": 0,
+    "genre": "Drama",
     "synopsis": "The late Hannah Baker explains why she committed suicide to her high school peers through a collection of cassette tapes she left behind.",
-    "dateofrelease": "July 21, 2017",
     "recommendations": "",
     "platform": "Netflix",
     "cast": "",
     "type": "TV",
     "releasedate": 2017,
-    "link": "https://www.youtube.com/watch?v=JebwYGn5Z3E"
+    "player": "https://www.youtube.com/embed/JebwYGn5Z3E"
   },
   {
     "name": "Atlanta",
@@ -40,12 +41,14 @@ var media = [
     "movieTitle": "Atlanta",
     "rtRating": 100,
     "myRating": 0,
+    "genre": "Comedy",
     "synopsis": "In Season 1 of this comedy series, two cousins try to work their way up through the Atlanta hip hop scene.",
     "recommendations": "If you like this watch...",
     "platform": "FX",
-    "cast": "Jenny Slate, Jay Duplass",
+    "cast": "",
     "type": "TV",
-    "releasedate": 2016
+    "releasedate": 2016,
+    "src": "www.youtube.com/embed/YE7VzlLtp-4"
   },
   {
     "name": "Black-ish",
@@ -53,6 +56,7 @@ var media = [
     "movieTitle": "Black-ish",
     "rtRating": 93,
     "myRating": 0,
+    "genre": "Comedy",
     "synopsis": "A successful family man worries that his four children are losing touch with black culture because they are growing up in an affluent, mostly white neighborhood.",
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
@@ -66,6 +70,7 @@ var media = [
     "movieTitle": "Big Little Lies",
     "rtRating": 92,
     "myRating": 0,
+    "genre": "Drama",
     "synopsis": "All is not what it seems in this dark comedy set in an idyllic seaside California town, where success, affluence and privilege are slowly but surely undone by secrets, rivalries, deception and murder. Nicole Kidman, Reese Witherspoon and Shailene Woodley star.",
     "recommendations": "If you like this watch...",
     "platform": "HBO Go",
@@ -79,6 +84,7 @@ var media = [
     "movieTitle": "Empire",
     "rtRating": 86,
     "myRating": 0,
+    "genre": "Drama",
     "synopsis": "A music mogul plans for the future of his empire as his three sons and his ex-wife battle each other to become the next heir apparent to the hip-hop throne.",
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
@@ -92,6 +98,7 @@ var media = [
     "movieTitle": "Legion",
     "rtRating": 90,
     "myRating": 0,
+    "genre": "Action, Drama, Sci-Fi",
     "synopsis": "Legion follows the story of David Haller, a troubled young man who may be more than human. Since he was a teenager, David has struggled with mental illness. Diagnosed as schizophrenic, David has been in and out of psychiatric hospitals for years. But after a strange encounter with a fellow patient, he's confronted with the possibility that the voices he hears and the visions he sees might be real.",
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
@@ -105,6 +112,7 @@ var media = [
     "movieTitle": "Mad Men",
     "rtRating": 94,
     "myRating": 0,
+    "genre": "Drama",
     "synopsis": "A look at the high-powered world of advertising in 1960s New York City, from the boardroom to the bedroom.",
     "recommendations": "If you like this watch...",
     "platform": "Netflix",
@@ -120,7 +128,7 @@ var media = [
     "rtRating": 86,
     "myRating": 10,
     "synopsis": "A former sitcom star attempts to restart his career. This star also happens to be a cartoon horse.",
-    "review": "",
+    "review": "In this dark comedy, you will both hate and empathize with Bojack. Bojack is the emobodiment of the antihero. Deeply cynical, existential and punny by nature, Bojack explores the meaning of life, the fallout from fame, nails the struggles many of us feel. Don't let the cartoon fool you, this is a MUST see.",
     "recommendations": "",
     "platform": "Netflix",
     "type": "TV",
@@ -314,10 +322,9 @@ var media = [
     "movieTitle": "Jane the Virgin",
     "tags": "strong female lead, uplifting, ",
     "rtRating": 100,
-    "myRating": 7.5,
+    "myRating": 8,
     "synopsis": "A comedy-drama following a chaste young woman who is accidentally impregnated via artificial insemination as she struggles to inform her devoutly religious family and make the right choices concerning the child. Based on the telenovela 'Juana la virgen.'",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
+    "review": "Jane the Virgin excels in in ability to laugh at itself. JtV poked fun at the telenovela genre while following all of the same tropes. The show stays relevant and somehow always manages to pique my interest. The #narrator will be your favorite character.",
     "platform": "Netflix",
     "type": "TV",
     "releasedate": 2014
@@ -711,9 +718,11 @@ var media = [
     "movieTitle": "Catfight",
     "tags": "",
     "rtRating": 73,
+    "myRating": 6,
     "synopsis": "Wealthy wine lover Veronica Salt (Sandra Oh, Grey's Anatomy, Sideways) and struggling outsider artist Ashley Chambers (Anne Heche, Hung, Psycho, Six Days Seven Nights) were close in college, but haven't seen each other since. When they find themselves attending the same glitzy birthday party, verbal barbs lead to fisticuffs and an all-out brawl that will keep these two locked in combat for years to come. Outrageous, hilarious, and action-packed, writer-director Onur Tukel's (Applesauce, Summer of Blood, Richard's Wedding) CATFIGHT is a jet-black comedy about two bitter rivals whose grudge match spans a lifetime.",
     "dateofrelease": "",
     "platform": "Netflix",
+    "review": "This movie was a lot to digest. The violent catfight signs made me feel physically uncomfortable. Two deeply unhappy people blaming one another for their lives, overall the movie was heavy handed and not my favorite.",
     "cast": "Sandra Oh",
     "type": "Movie",
     "releasedate": 2017
@@ -724,10 +733,11 @@ var media = [
     "movieTitle": "Everybody Wants Some!",
     "tags": "",
     "rtRating": 86,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "On the heels of his success with the groundbreaking drama Boyhood, director Richard Linklater shifts gears to sports for this comedy about a successful college baseball team that plays hard both on and off the diamond. Blake Jenner, Tyler Hoechin, Wyatt Russell, Ryan Guzman, Zoey Dutch, Will Brittain, and Glen Powell star.",
     "dateofrelease": "",
     "platform": "Amazon Prime",
     "cast": "",
+    "genre": "Comedy",
     "dir": "Richard Linklater",
     "type": "Movie",
     "releasedate": 2016
@@ -738,11 +748,12 @@ var media = [
     "movieTitle": "Fits and Starts",
     "tags": "",
     "rtRating": 0,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "David Warwik is a struggling writer who has been toiling away at the same novel for years. His wife Jennifer is a hot young literary figure, who has just released a new masterpiece. When her publisher invites the couple to an artists' salon at his home in Connecticut, the pair embark on a twisted journey, and David must face his demons and try to 'not be weird' among the waspy salon guests and competitive art set in attendance. He encounters a dentist with publishing aspirations, a book critic full of condescending advice, a fellow writer who may know his wife a little too well, an old 'friend,' and a high powered bipolar literary agent who just might be able to help him...for a price",
+    "genre": "Comedy",
+    "dir": "Laura Terruso",
     "dateofrelease": "",
     "platform": "",
     "cast": "",
-    "dir": "",
     "type": "Movie",
     "releasedate": 2017
   },
@@ -752,11 +763,12 @@ var media = [
     "movieTitle": "Freefire",
     "tags": "",
     "rtRating": 67,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "Bold, breathless and wickedly fun, Free Fire is an electrifying action comedy about an arms deal that goes spectacularly and explosively wrong. Acclaimed filmmaker Ben Wheatley (Kill List, High Rise) propels the audience head-on into quite possibly the most epic shootout ever seen on film as he crafts a spectacular parody -- and biting critique -- of the insanity of gun violence. Everyone's got a gun, and absolutely no one is in control. Set in a colorful yet gritty 1970s Boston, Free Fire opens with Justine (Oscar (R) winner Brie Larson), a mysterious American businesswoman, and her wise-cracking associate Ord (Armie Hammer) arranging a black-market weapons deal in a deserted warehouse between IRA arms buyer Chris (Cillian Murphy) and shifty South African gun runner Vernon (Sharlto Copley). What starts as a polite if uneasy exchange soon goes south when tensions escalate and shots are fired, quickly leading to a full-on Battle Royale where it's every man (and woman) for themselves. Packed with witty one-liners, flamboyant characters and remarkable feats of cinematic gunplay, Free Fire is a full-throttle action extravaganza that keeps things fresh and fun with Wheatley's alternately buoyant and savage sense of humor. Swinging from the madcap to the macabre and back again, the film is an exhilarating experience that will leave you quite literally blown away",
     "dateofrelease": "",
     "platform": "",
     "cast": "Brie Larson",
-    "dir": "",
+    "genre": "Action & Adventure, Comedy, Drama",
+    "dir": "Ben Wheatley",
     "type": "Movie",
     "releasedate": 2017
   },
@@ -766,11 +778,11 @@ var media = [
     "movieTitle": "Girlhood",
     "tags": "",
     "rtRating": 96,
-    "synopsis": "Synopsis of movie goes here.",
+    "synopsis": "Fed up with her abusive family situation, lack of school prospects and the 'boys' law' in the neighborhood, Marieme starts a new life after meeting a group of three free-spirited girls. She changes her name, her style, drops out of school and starts stealing to be accepted into the gang. When her home situation becomes unbearable, Marieme seeks solace in an older man who promises her money and protection. Realizing this sort of lifestyle will never result in the freedom and independence she truly desires, she finally decides to take matters into her own hands. (C) Strand'",
     "dateofrelease": "",
-    "platform": "",
+    "platform": "Netflix",
     "cast": "",
-    "dir": "",
+    "dir": "Céline Sciamma",
     "type": "Movie",
     "releasedate": 2015
   },
@@ -800,7 +812,8 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "",
     "type": "Movie",
-    "releasedate": 2017
+    "releasedate": 2017,
+    "src": "https://www.youtube.com/embed/gM96ne-XiH0"
   },
   {
     "name": "ManchesterbytheSea",
@@ -815,6 +828,7 @@ var media = [
     "platform": "",
     "type": "Movie",
     "releasedate": 2016
+    
   },
   {
     "name": "13th",
@@ -1389,14 +1403,19 @@ var movietemplate = '<div class="container">' +
                     '<p class="recommendations"></p>' +
                     '<p class="releasedate"></p>' +
                     '<p class="platform"></p>' +
-                    '<button class="buttonsyn" onclick="seeSynopsis(event)">Synopsis</button>' +
+                    '<button class="buttonsyn" onclick="seeMore(event)">Learn more</button>' +
                     '</div>' +
                     '</div>' +
                     '</div>';
 
-function seeSynopsis(event) {
+function seeMore(event) {
   $("h3.title").html($(event.target).data("title"));
   $("p.synopsis").html($(event.target).data("synopsis"));
+  $("p.review").html($(event.target).data("review"));
+  /*
+  $("iframe.src").html($(event.target).data("src"));
+  $('iframe').show();
+  */
   $("#myModal").show();
 }
 
@@ -1533,3 +1552,40 @@ function filterPlatform(event, platform) {
     displayCurrentMedia();
     event.preventDefault();
 }
+
+function filterGenre(event, genre) {
+  currentmedia = [];
+  for (i = 0; i < media.length; i++){
+    if (media[i].genre == genre) {
+      currentmedia.push(media[i]);
+  }}
+    $("#all-the-movies").empty();
+    displayCurrentMedia();
+    event.preventDefault();
+}
+
+//trying to make video dynamically play//
+/*
+
+var MyVideos=["E6RGMRamAFk","IHQr0HCIN2w","CogIXrea6A4"];
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+      function onPlayerReady(event) {
+//Player is ready, cue the array of videos into the playlist.
+player.cuePlaylist(MyVideos);
+      }
+      function onPlayerStateChange(event) {
+      }
+      */

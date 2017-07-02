@@ -40,10 +40,26 @@
    <li class='last'><a onclick="filterPlatform(event, '')"><span>Other</span></a></li>
 </ul>
 </div>
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='#'><span>Filter by Genre</span></a></li>
+   <li><a onclick="filterGenre(event, 'Comedy')"><span>Comedy</span></a></li>
+   <li><a onclick="filterGenre(event, 'Drama')"><span>Drama</span></a></li>
+   <li class='last'><a onclick="filterGenre(event, 'Action')"><span>Action</span></a></li>
+   <li class='last'><a onclick="filterGenre(event, 'Fantasy')"><span>Fantasy</span></a></li>
+   <li class='last'><a onclick="filterGenre(event, '')"><span>Other</span></a></li>
+</ul>
+</div>
 <div class="media">
  <form>
 	<input type="search" placeholder="Search">
 </form>
+<!--info hover-->
+
+<div class="tooltip"> <img src="images/infoicon.png" height="40px" width="40px" class="infoicon">
+  <span class="tooltiptext">Stephflix ratings are based on a 1-10 scale. If a tv show or movie has a rating of 0, it means I have not yet seen it. It is rare that you will find a rating below a 6.5. My goal with this site is to provide a list of films and shows that I think people should see.</span>
+</div>
+
   <div class="boxes" id="all-the-movies">
 </div>
   <!-- The Modal -->
@@ -54,10 +70,13 @@
     <span class="close" id="close">&times;</span>
     <h3 class="title"></h3>
     <p class="synopsis">Some text in the Modal..</p>
-    <div id="youtube-video"></div>
+    <!--
+    <iframe id="youtube-video" width="420" height="315"></iframe>
+    <div onload="onYouTubeIframeAPIReady()" name="ytplayer" id="player"></div>
+    -->
   </div>
-
 </div>
-</div> 
+</div>
+  
 </body>
 <html>
