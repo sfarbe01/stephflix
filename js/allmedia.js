@@ -1085,6 +1085,20 @@ var media = [
     "releasedate": 1997
   },
   {
+    "name": "Landline",
+    "posterImage": "images/landline.jpeg",
+    "movieTitle": "Landline",
+    "tags": "",
+    "rtRating": 71,
+    "myRating": 9.5,
+    "synopsis": "Synopsis of movie goes here.",
+    "review": "Gillian Robiespierre and Jenny Slate are back at it in this 90s comedy. Dana, the protagonist, unapologetically and humorously questions monogamy and what it truly means to be happy in life and in a relationship. This heartfelt comedy honestly explores romantic and familial relationships through 90s nostalgia.",
+    "recommendations": "If you like this watch...",
+    "platform": "",
+    "type": "Movie",
+    "releasedate": 2017
+  },
+  {
     "name": "Life,Animated",
     "posterImage": "images/lifeanimated.jpg",
     "movieTitle": "Life, Animated",
