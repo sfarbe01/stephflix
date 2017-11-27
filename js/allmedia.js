@@ -30,7 +30,7 @@ var media = [
     "rtRating": 86,
     "myRating": 10,
     "synopsis": "A former sitcom star attempts to restart his career. This star also happens to be a cartoon horse.",
-    "review": "In this dark comedy, you will both hate and empathize with Bojack. Bojack is the emobodiment of the antihero. Deeply cynical, existential and punny by nature, Bojack explores the meaning of life, the fallout from fame, nails the struggles many of us feel. Don't let the cartoon fool you, this is a MUST see.",
+    "myreview": "In this dark comedy, you will both hate and empathize with Bojack. Bojack is the emobodiment of the antihero. Deeply cynical, existential and punny by nature, Bojack explores the meaning of life, the fallout from fame, nails the struggles many of us feel. Don't let the cartoon fool you, this is a MUST see.",
     "recommendations": "",
     "platform": "Netflix",
     "type": "TVseen",
@@ -128,8 +128,7 @@ var media = [
     "rtRating": 89,
     "myRating": 10,
     "synopsis": "A comedy about twentysomething women navigating their way through life in New York.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
+    "myreview": "Where to begin? When I sat down to watch the Pilot of Girls (after my friend Katie begged mericilessly for months and then finally just turned it on and insisted we start watching together), neither of us moved from the floor of my parents bedroom for five hours. Dunham's writing and portrayal of the post-graduate bumbling millenial female struggle so accurately identitifed the questions I asked myself then and continue to think about now. From finding and losing love to finding a meaningful career to making and losing friends in a new city, Dunham does it all. Though furstratingly cyclical, the arcs are these characters are poignantly realistic and you'll root for them against all odds. The story that this show tells is further heightened by the incredible soundtrack adding another layer of depth and complexity to the myriad of dysfunctional relationships we have the privilege of witnessing. Whether or not you find yourself dancing on your own, check out this complex story of the modern feminist and female empowerment.",
     "platform": "HBO Go",
     "type": "TVseen",
     "releasedate": 2012
@@ -1447,7 +1446,7 @@ var movietemplate = '<div class="container">' +
                     '<img src="images/stephflixrate.png">' +
                     '<p class="myRating"></p>' +
                     '</div>' +
-                    '<p class="review"></p>' +
+                    '<p class="myreview"></p>' +
                     '<p class="recommendations"></p>' +
                     '<p class="releasedate"></p>' +
                     '<p class="platform"></p>' +
@@ -1459,7 +1458,7 @@ var movietemplate = '<div class="container">' +
 function seeMore(event) {
   $("h3.title").html($(event.target).data("title"));
   $("p.synopsis").html($(event.target).data("synopsis"));
-  $("p.review").html($(event.target).data("review"));
+  $("p.myreview").html($(event.target).data("myreview"));
   /*
   $("iframe.src").html($(event.target).data("src"));
   $('iframe').show();
