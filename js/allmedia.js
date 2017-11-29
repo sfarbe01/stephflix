@@ -9,6 +9,22 @@ var media = [
 
   //TV//
    {
+    "name": "ArrestedDevelopment",
+    "posterImage": "images/arrested.jpg",
+    "movieTitle": "Arrested Development",
+    "rtRating": 93,
+    "myRating": 7,
+    "genre": "Comedy",
+    "synopsis": "A successful family man worries that his four children are losing touch with black culture because they are growing up in an affluent, mostly white neighborhood.",
+    "recommendations": "If you like this watch...",
+    "myreview": "If there is one thing you should know about this show it's that there is ALWAYS money in the banana stand. If Hell is other people then Arrested Development is the closest thing to Hell available to stream. The absurd antics of the Bluthe family and the ways in which their varying levels of stupidity and solipsism constantly frustrate one another makes for a enjoyable half hour of television. This show has no shortage of reusable one-liners and characters you'll come to appreciate more and more with every passing season. Except the Netflix season, you can afford to skip that.",
+    "platform": "Netflix",
+    "URL": "https://www.netflix.com/title/70140358",
+    "cast": "",
+    "type": "TVseen",
+    "releasedate": 2014
+  },
+   {
     "name": "Black-ish",
     "posterImage": "images/blackish.jpg",
     "movieTitle": "Black-ish",
@@ -17,7 +33,9 @@ var media = [
     "genre": "Comedy",
     "synopsis": "A successful family man worries that his four children are losing touch with black culture because they are growing up in an affluent, mostly white neighborhood.",
     "recommendations": "If you like this watch...",
+    "myreview": "TESTINGSSSSS",
     "platform": "Hulu",
+    "URL": "https://www.hulu.com/blackish",
     "cast": "",
     "type": "TVseen",
     "releasedate": 2014
@@ -197,7 +215,7 @@ var media = [
     "rtRating": 100,
     "myRating": 10,
     "synopsis": "Two black women who are best friends navigate the pitfalls of their personal and professional lives in south Los Angeles.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
+    "myreview": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
     "recommendations": "If you like this watch...",
     "platform": "HBO Go",
     "type": "TVseen",
@@ -455,7 +473,7 @@ var media = [
     "platform": "HBO Go",
     "cast": "",
     "type": "TVqueue",
-    "releasedate": 2011,
+    "releasedate": 2011
   },
   {
     "name": "Biglittelies",
@@ -593,6 +611,23 @@ var media = [
     "platform": "",
     "cast": "Jenny Slate, Jay Duplass",
     "type": "Movie",
+    "releasedate": 2017
+  },
+   {
+    "name": "Ladybird",
+    "posterImage": "images/ladybird.jpg",
+    "movieTitle": "Ladybird",
+    "tags": "strong female lead, uplifting, ",
+    "rtRating": 100,
+    "myRating": 10,
+    "synopsis": "In the early 2000s, an artistically-inclined seventeen year-old comes of age in Sacramento, California.",
+    "dateofrelease": "July 21, 2017",
+    "recommendations": "If you like this watch...",
+    "review": "Gillian Robiespierre and Jenny Slate are back at it in this 90s comedy. Dana, the protagonist, unapologetically and humorously questions monogamy and what it truly means to be happy in life and in a relationship. This heartfelt comedy honestly explores romantic and familial relationships through 90s nostalgia.",
+    "platform": "Theaters",
+    "platformlink": "https://www.fandango.com/",
+    "cast": "Jenny Slate, Jay Duplass",
+    "type": "Movieseen",
     "releasedate": 2017
   },
     {
@@ -1403,8 +1438,9 @@ var media = [
 var prev_handler = window.onload;
 window.onload = function (event) {
   currentmedia = media
-  displayCurrentMedia();
+  /*displayCurrentMedia();*/
      event.preventDefault();
+
   
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -1446,7 +1482,6 @@ var movietemplate = '<div class="container">' +
                     '<img src="images/stephflixrate.png">' +
                     '<p class="myRating"></p>' +
                     '</div>' +
-                    '<p class="myreview"></p>' +
                     '<p class="recommendations"></p>' +
                     '<p class="releasedate"></p>' +
                     '<p class="platform"></p>' +
@@ -1459,6 +1494,18 @@ function seeMore(event) {
   $("h3.title").html($(event.target).data("title"));
   $("p.synopsis").html($(event.target).data("synopsis"));
   $("p.myreview").html($(event.target).data("myreview"));
+  var URL=$(event.target).data("URL");
+    if (URL) {
+        $("a.platformlink").show()
+        $("a.platformlink").html("Watch on " + $(event.target).data("platform"));
+        $("a.platformlink").attr("href",$(event.target).data("URL"));
+        $("a.platformlink").attr("class",$(event.target).data("platform")+ " platformlink"); 
+    }
+    else {
+        $("a.platformlink").hide()
+    }
+ 
+
   /*
   $("iframe.src").html($(event.target).data("src"));
   $('iframe').show();
@@ -1498,8 +1545,6 @@ function compareRottenRating(lhs, rhs) {
 }
 
  function sortRottenRating(event) {
-   /*currensort = "RottenRating" */
-   currentmedia = media
     console.log("sort by rotten tomatoes");
     currentmedia.sort(compareRottenRating);
     $("#all-the-movies").empty();
@@ -1519,7 +1564,6 @@ function compareMyRating(lhs, rhs) {
 }
 
  function sortMyRating(event) {
-   currentmedia = media
     console.log("sort by stephflix");
     currentmedia.sort(compareMyRating);
     $("#all-the-movies").empty();
@@ -1539,7 +1583,6 @@ function compareName(lhs, rhs) {
 }
 
  function sortName(event) {
-   currentmedia = media
     console.log("sort alphabetically");
     currentmedia.sort(compareName);
     $("#all-the-movies").empty();
@@ -1584,28 +1627,34 @@ function displayCurrentMedia() {
       $(elem).find("p.myRating").html(movie.myRating);
       $(elem).find("p.platform").html(movie.platform);
       $(elem).find("p.releasedate").html(movie.releasedate);
+      /*This stuff is for the modal*/
       $(elem).find("button.buttonsyn").data("synopsis", movie.synopsis);
       $(elem).find("button.buttonsyn").data("title", movie.movieTitle);
-    }  
+       $(elem).find("button.buttonsyn").data("myreview", movie.myreview);
+       $(elem).find("button.buttonsyn").data("platform", movie.platform);
+       $(elem).find("button.buttonsyn").data("URL", movie.URL);
+     
+    }   
 }
 
 function filterPlatform(event, platform) {
+    /*
   currentmedia = [];
   for (i = 0; i < media.length; i++){
     if (media[i].platform == platform) {
       currentmedia.push(media[i]);
-  }}
+  }}*/
+  /*
+  currentmedia = $.grep(media, function (item, i) { return item.platform == platform; });
+  */
+  currentmedia = $.grep(currentmedia, function (item, i) { return item.platform == platform; });
     $("#all-the-movies").empty();
     displayCurrentMedia();
     event.preventDefault();
 }
 
 function filterGenre(event, genre) {
-  currentmedia = [];
-  for (i = 0; i < media.length; i++){
-    if (media[i].genre == genre) {
-      currentmedia.push(media[i]);
-  }}
+  currentmedia = $.grep(currentmedia, function (item, i) { return item.genre && item.genre.includes(genre); });
     $("#all-the-movies").empty();
     displayCurrentMedia();
     event.preventDefault();

@@ -2,7 +2,13 @@ hover {
   cursor: pointer;
 }
 
+.title {
+  color:teal;
+}
+
 /*Navigation*/
+
+
 #cssmenu {
   background: #cde4ea;
   width: auto;
@@ -460,4 +466,13 @@ body {
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+
+a.Hulu{
+  color:green;
+}
+
+a.Netflix{
+  color:red;
 }
