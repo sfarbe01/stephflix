@@ -6,6 +6,12 @@ hover {
   color:teal;
 }
 
+.movieoweek{
+  color:blue;
+  text-decoration: none;
+  border-style: none;
+}
+
 /*Navigation*/
 
 
@@ -475,4 +481,8 @@ a.Hulu{
 
 a.Netflix{
   color:red;
+}
+
+a.Theaters{
+  color:blue;
 }

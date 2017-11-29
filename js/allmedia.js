@@ -48,9 +48,10 @@ var media = [
     "rtRating": 86,
     "myRating": 10,
     "synopsis": "A former sitcom star attempts to restart his career. This star also happens to be a cartoon horse.",
-    "myreview": "In this dark comedy, you will both hate and empathize with Bojack. Bojack is the emobodiment of the antihero. Deeply cynical, existential and punny by nature, Bojack explores the meaning of life, the fallout from fame, nails the struggles many of us feel. Don't let the cartoon fool you, this is a MUST see.",
+    "myreview": "Back in the 90s, BoJack was in a very famous TV show and he's been trying to recapture that fame ever since. If you ever find yourself feeling an existential crisis coming on, BoJack Horseman is the perfect place to feel understood. A depressed washed-up horse actor living in LA hates himself, everyone in his life, and well, everything that isn't bourbon. Though easily written off because it is a cartoon, the show intimately (and with terrifying accuracy) describes how it feels to be depressed when things appear sunny and cheerful on the outside. To a fault, BoJack explores how depression neagtively influences the way we see and treat ourselves, those we love, and those we try to push away. This dark comedy wouldn't be as enjoyable to watch without the sharp, constant wit that drives the series and its title character forward (and sometimes very far backwards). Look for puns on every street corner and everytime BoJack opens his mouth. To be sure that none of his humor goes to waste, BoJack will often end a laugh-less punchline by asking, 'too smart for the room?' ",
     "recommendations": "",
     "platform": "Netflix",
+    "URL": "https://www.netflix.com/title/70300800",
     "type": "TVseen",
     "releasedate": 2014
   },
@@ -491,22 +492,6 @@ var media = [
     "releasedate": 2017
   }, 
   {
-    "name": "13reasonswhy",
-    "posterImage": "images/13reasons.jpg",
-    "movieTitle": "13 Reasons Why",
-    "rtRating": 86,
-    "myRating": 0,
-    "genre": "Drama",
-    "synopsis": "The late Hannah Baker explains why she committed suicide to her high school peers through a collection of cassette tapes she left behind.",
-    "recommendations": "",
-    "platform": "Netflix",
-    "stephflixViewedTV": "No",
-    "cast": "",
-    "type": "TVqueue",
-    "releasedate": 2017,
-    "player": "https://www.youtube.com/embed/JebwYGn5Z3E"
-  },
-  {
     "name": "Atlanta",
     "posterImage": "images/atlanta.jpg",
     "movieTitle": "Atlanta",
@@ -533,6 +518,7 @@ var media = [
     "synopsis": "A music mogul plans for the future of his empire as his three sons and his ex-wife battle each other to become the next heir apparent to the hip-hop throne.",
     "recommendations": "If you like this watch...",
     "platform": "Hulu",
+    "URL": "https://www.hulu.com/empire",
     "cast": "",
     "type": "TVqueue",
     "releasedate": 2015
@@ -625,7 +611,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "review": "Gillian Robiespierre and Jenny Slate are back at it in this 90s comedy. Dana, the protagonist, unapologetically and humorously questions monogamy and what it truly means to be happy in life and in a relationship. This heartfelt comedy honestly explores romantic and familial relationships through 90s nostalgia.",
     "platform": "Theaters",
-    "platformlink": "https://www.fandango.com/",
+    "URL": "https://www.fandango.com/",
     "cast": "Jenny Slate, Jay Duplass",
     "type": "Movieseen",
     "releasedate": 2017
@@ -1497,7 +1483,7 @@ function seeMore(event) {
   var URL=$(event.target).data("URL");
     if (URL) {
         $("a.platformlink").show()
-        $("a.platformlink").html("Watch on " + $(event.target).data("platform"));
+        $("a.platformlink").html("Watch it now: " + $(event.target).data("platform"));
         $("a.platformlink").attr("href",$(event.target).data("URL"));
         $("a.platformlink").attr("class",$(event.target).data("platform")+ " platformlink"); 
     }
