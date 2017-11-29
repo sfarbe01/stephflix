@@ -1048,6 +1048,7 @@ var media = [
     "posterImage": "images/moana.jpg",
     "movieTitle": "Moana",
     "tags": "",
+    "genre":"Kids",
     "rtRating": 93,
     "myRating": 8,
     "synopsis": "Synopsis of movie goes here.",
@@ -1055,7 +1056,7 @@ var media = [
     "recommendations": "If you like this watch...",
     "platform": "",
     "type": "Movieseen",
-    "releasedate": 1997
+    "releasedate": 2016
   },
   {
     "name": "Moonlight",
