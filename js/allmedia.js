@@ -1052,9 +1052,10 @@ var media = [
     "rtRating": 93,
     "myRating": 8,
     "synopsis": "Synopsis of movie goes here.",
-    "review": "",
+    "myreview": "",
     "recommendations": "If you like this watch...",
-    "platform": "",
+    "platform": "Netflix",
+    "URL": "https://www.netflix.com/title/80108238",
     "type": "Movieseen",
     "releasedate": 2016
   },
