@@ -29,7 +29,7 @@ var media = [
     "posterImage": "images/blackish.jpg",
     "movieTitle": "Black-ish",
     "rtRating": 93,
-    "myRating": 0,
+    "myRating": 8,
     "genre": "Comedy",
     "synopsis": "A successful family man worries that his four children are losing touch with black culture because they are growing up in an affluent, mostly white neighborhood.",
     "recommendations": "If you like this watch...",
