@@ -12,32 +12,30 @@ var media = [
     "name": "ArrestedDevelopment",
     "posterImage": "images/arrested.jpg",
     "movieTitle": "Arrested Development",
-    "rtRating": 93,
+    "rtRating": 83,
     "myRating": 7,
     "genre": "Comedy",
-    "synopsis": "A successful family man worries that his four children are losing touch with black culture because they are growing up in an affluent, mostly white neighborhood.",
-    "recommendations": "If you like this watch...",
+    "synopsis": "A young man leads his oddball family and their real-estate-development business following a securities-fraud fiasco that put the father in jail. This is an arrestingly sophisticated and sardonic sitcom, with deliciously deadpan narration and stylish flashbacks, about mostly self-absorbed characters at odds with one another and the world at large.",
     "myreview": "If there is one thing you should know about this show it's that there is ALWAYS money in the banana stand. If Hell is other people then Arrested Development is the closest thing to Hell available to stream. The absurd antics of the Bluthe family and the ways in which their varying levels of stupidity and solipsism constantly frustrate one another makes for a enjoyable half hour of television. This show has no shortage of reusable one-liners and characters you'll come to appreciate more and more with every passing season. Except the Netflix season, you can afford to skip that.",
     "platform": {
-        "Netflix": "https://www.netflix.com/title/70140358"
+        "Netflix": "https://www.netflix.com/title/70140358",
+        "Hulu": "https://www.hulu.com/arrested-development"
     },
-    "cast": "",
     "type": "TVseen",
-    "releasedate": 2014
+    "releasedate": 2003
   },
    {
     "name": "Black-ish",
     "posterImage": "images/blackish.jpg",
     "movieTitle": "Black-ish",
-    "rtRating": 93,
+    "rtRating": 95,
     "myRating": 8,
     "genre": "Comedy",
     "synopsis": "A successful family man worries that his four children are losing touch with black culture because they are growing up in an affluent, mostly white neighborhood.",
-    "recommendations": "If you like this watch...",
-    "myreview": "TESTINGSSSSS",
-    "platform": "Hulu",
-    "URL": "https://www.hulu.com/blackish",
-    "cast": "",
+    "myreview": "This show tackles race in America with humor and sharp social commentary.",
+    "platform": {
+        "Hulu": "https://www.hulu.com/blackish"
+    },
     "type": "TVseen",
     "releasedate": 2014
   },
@@ -45,14 +43,13 @@ var media = [
     "name": "Bojack",
     "posterImage": "images/bojack.jpg",
     "movieTitle": "Bojack Horseman",
-    "tags": "",
-    "rtRating": 86,
+    "rtRating": 89,
     "myRating": 10,
     "synopsis": "A former sitcom star attempts to restart his career. This star also happens to be a cartoon horse.",
     "myreview": "Back in the 90s, BoJack was in a very famous TV show and he's been trying to recapture that fame ever since. If you ever find yourself feeling an existential crisis coming on, BoJack Horseman is the perfect place to feel understood. A depressed washed-up horse actor living in LA hates himself, everyone in his life, and well, everything that isn't bourbon. Though easily written off because it is a cartoon, the show intimately (and with terrifying accuracy) describes how it feels to be depressed when things appear sunny and cheerful on the outside. To a fault, BoJack explores how depression neagtively influences the way we see and treat ourselves, those we love, and those we try to push away. This dark comedy wouldn't be as enjoyable to watch without the sharp, constant wit that drives the series and its title character forward (and sometimes very far backwards). Look for puns on every street corner and everytime BoJack opens his mouth. To be sure that none of his humor goes to waste, BoJack will often end a laugh-less punchline by asking, 'too smart for the room?' ",
-    "recommendations": "",
-    "platform": "Netflix",
-    "URL": "https://www.netflix.com/title/70300800",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/70300800"
+    },
     "type": "TVseen",
     "releasedate": 2014
   },
@@ -61,12 +58,13 @@ var media = [
     "posterImage": "images/catastrophe.jpg",
     "movieTitle": "Catastrophe",
     "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "rtRating": 100,
     "myRating": 8.5,
     "synopsis": "Rob Delaney and Sharon Horgan write and star in this R-rated comedy about a one-week stand between a Boston ad exec and a London schoolteacher that leads to an accidental pregnancy. When Rob moves to the UK to help figure things out, cultures clash and hormones flare as these two realize they don't know the first thing about each other. -- (C) AMAZON",
-    "review": "",
-    "recommendations": "",
-    "platform": "Amazon Prime",
+    "myreview": "Catastrophe takes a hard look at the imperfections of relationships without the all-too frequent trope of neatly wrapping things up in the end. Sharon and Rob struggle with what it means to be new parents, spouses, and still maintain a sense of independence and purpose outside of all that. The show tackles these and other issues with poignatly dark humor and accuracy.",
+    "platform": {
+        "Amazon Prime": "https://www.amazon.com/Episode-1/dp/B00X8UKN42/ref=sr_1_1?s=instant-video&ie=UTF8&qid=1512337644&sr=1-1&keywords=catastrophe"
+    },
     "type": "TVseen",
     "releasedate": 2015
   },
@@ -74,13 +72,13 @@ var media = [
     "name": "Community",
     "posterImage": "images/community.jpg",
     "movieTitle": "Community",
-    "tags": "strong female lead, uplifting, ",
-    "rtRating": 86,
+    "rtRating": 84,
     "myRating": 7,
     "synopsis": "A comedy series about an oddball group of students attending a community college in Colorado.",
-    "review": "",
-    "recommendations": "If you like this watch...",
-    "platform": "Hulu",
+    "myreview": "A unlikely group of misfits become friends thanks to their study group at a community college. The earlier seasons shine, but Communityis great for some mostly mindless laughs. The Troy and Abed friendhsip is one you'll wish you had.",
+    "platform": {
+        "Hulu": "https://www.hulu.com/search?q=Community"
+    },
     "type": "TVseen",
     "releasedate": 2009
   },
@@ -88,13 +86,13 @@ var media = [
     "name": "Crashing",
     "posterImage": "images/crashing.jpg",
     "movieTitle": "Crashing",
-    "tags": "strong female lead, uplifting, ",
-    "rtRating": 0,
+    "rtRating": "",
     "myRating": 7.5,
     "synopsis": "A new comedy series following the lives of six 20- and 30-somethings living together as property guardians of a large, disused hospital.",
-    "review": "",
-    "recommendations": "If you like this watch...",
-    "platform": "Netflix",
+    "myreview": "Crashing is a great show to binge if you're looking for a quick bit of humor about college-style parties and the incestuous antics of friends who live together/",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/80133117"
+    },
     "type": "TVseen",
     "releasedate": 2016
   },
@@ -102,29 +100,15 @@ var media = [
     "name": "Difficultpeople",
     "posterImage": "images/difficultpeople.jpg",
     "movieTitle": "Difficult People",
-    "tags": "",
     "rtRating": 92,
     "myRating": 8.5,
     "synopsis": "This comedy series zeros in on two irreverent, people-hating best friends in New York City.",
-    "review": "",
-    "recommendations": "If you like this watch...",
-    "platform": "Hulu",
+    "myreview": "Two struggling comedians in New York City make fun of everyone and everything around them. Watching these two terrible people run into trouble time and time again is good for socially relevant laughs. Lots of great cameos, fast paced. The earlier seasons are strongest, but if you're looking for 30 minutes of running commentary about cultural absurdities, this is the show for you.",
+    "platform": {
+        "Hulu": "https://www.hulu.com/difficult-people"
+    },
     "type": "TVseen",
     "releasedate": 2015
-  },
-    {
-    "name": "Flaked",
-    "posterImage": "images/flaked.jpg",
-    "movieTitle": "Flaked",
-    "tags": "strong female lead, uplifting, ",
-    "rtRating": 42,
-    "myRating": 5,
-    "synopsis": "A self-appointed ''guru'' named Chip falls for the object of his best friend's desire.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "Netflix",
-    "type": "TVseen",
-    "releasedate": 2016
   },
   {
     "name": "Fleabag",
@@ -135,8 +119,9 @@ var media = [
     "myRating": 8,
     "synopsis": "A sexually-liberated, irritable woman navigates modern life in London in this comedy. Based on Phoebe Waller-Bridge's play of the same name.",
     "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "Amazon Prime",
+    "platform": {
+        "Amazon Prime": "https://www.amazon.com/Fleabag-Season-1-Official-Trailer/dp/B01J4SST1K/ref=sr_1_1?s=instant-video&ie=UTF8&qid=1512338458&sr=1-1&keywords=fleabag"
+    },
     "type": "TVseen",
     "releasedate": 2016
   },
@@ -144,12 +129,13 @@ var media = [
     "name": "Girls",
     "posterImage": "images/girls.jpg",
     "movieTitle": "Girls",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 89,
     "myRating": 10,
-    "synopsis": "A comedy about twentysomething women navigating their way through life in New York.",
-    "myreview": "Where to begin? When I sat down to watch the Pilot of Girls (after my friend Katie begged mericilessly for months and then finally just turned it on and insisted we start watching together), neither of us moved from the floor of my parents bedroom for five hours. Dunham's writing and portrayal of the post-graduate bumbling millenial female struggle so accurately identitifed the questions I asked myself then and continue to think about now. From finding and losing love to finding a meaningful career to making and losing friends in a new city, Dunham does it all. Though furstratingly cyclical, the arcs are these characters are poignantly realistic and you'll root for them against all odds. The story that this show tells is further heightened by the incredible soundtrack adding another layer of depth and complexity to the myriad of dysfunctional relationships we have the privilege of witnessing. Whether or not you find yourself dancing on your own, check out this complex story of the modern feminist and female empowerment.",
-    "platform": "HBO Go",
+    "synopsis": "Hannah and her friends are just four girls trying to figure out what they want--from life...from men...from themselves. From actor/writer/director Lena Dunham and comedy veterans Judd Apatow and Jenni Konner comes this contemporary coming-of-age comedy series that follows these 20-somethings struggling through their post-collegiate years in New York City.",
+    "myreview": "Dunham's writing and portrayal of the post-graduate bumbling millenial female struggle is perfectly captured in this show. From finding and losing love to finding a meaningful career to making and losing friends in a new city, Dunham does it all. Though furstratingly cyclical, the arcs are these characters are poignantly realistic and you'll find some of them to be frustratingly relatable. The story that this show tells is further heightened by the incredible soundtrack adding another layer of depth and complexity to the myriad of dysfunctional relationships we have the privilege of witnessing. Whether or not you find yourself dancing on your own, check out this complex story of the modern feminist and female empowerment.",
+    "platform": {
+        "HBO Go": "https://play.hbogo.com/series/urn:hbo:series:GVU2d_A0NVFFvjSoJAT65"
+    },
     "type": "TVseen",
     "releasedate": 2012
   },
@@ -157,13 +143,13 @@ var media = [
     "name": "Easy",
     "posterImage": "images/easy.jpg",
     "movieTitle": "Easy",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 94,
     "myRating": 9.5,
     "synopsis": "Season 1 features eight vignettes that follow the complicated, loosely connected lives of young Chicagoans in their twenties and thirties as they tackle love, sex and self-improvement.",
-    "review": "",
-    "recommendations": "",
-    "platform": "Netflix",
+    "myreview": "This show explores the complexity of relationships in the 21st and expresses the lack of a 'one-size fits all' mentality. Simultaneously thought-provoking and humorous. Joe Swanberg does what he does best; taking the awkwardness of real characters and bringing their stories to life. Don't miss Easy.",
+    "platform": {
+       "Netflix": "https://www.netflix.com/title/80095699" 
+    },
     "type": "TVseen",
     "releasedate": 2016
   },
@@ -171,13 +157,13 @@ var media = [
     "name": "Grace and frankie",
     "posterImage": "images/graceandfrankie.jpg",
     "movieTitle": "Grace and Frankie",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 81,
     "myRating": 8.5,
     "synopsis": "Two nemeses become bonded jilted wives after their husbands reveal they have been having an affair with each other since the 1990s and now plan to get married.",
-    "review": "",
-    "recommendations": "If you like this watch...",
-    "platform": "Netflix",
+    "myreview": "The unlikely friendship (and eventual business partnership) that forms between these two women is heartwarming, hilarious, and all-around enjoyable to watch. Perfect for a rainy afternoon.",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/80017537"
+    },
     "type": "TVseen",
     "releasedate": 2015
   },
@@ -185,13 +171,13 @@ var media = [
     "name": "Happyendings",
     "posterImage": "images/happyendings.jpg",
     "movieTitle": "Happy Endings",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 67,
-    "myRating": 7.5,
+    "myRating": 7,
     "synopsis": "A sitcom about the complications arising among friends of a seemingly perfect couple who break up.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "Hulu",
+    "myreview": "A modern comedy about a group of friends who try to navigate relationships and careers in the 21st century. There's nothing particularly profound about this show, but if you're looking for a buddy comedy to throw on in the background, Happy Endings is a safe bet and good for laughs.",
+    "platform": {
+        "Hulu": "https://www.hulu.com/happy-endings"
+    },
     "type": "TVseen",
     "releasedate": 2011
   },
@@ -199,13 +185,13 @@ var media = [
     "name": "highmeaintenance",
     "posterImage": "images/highmaintenance.jpg",
     "movieTitle": "High Maintenance",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 94,
     "myRating": 9.5,
     "synopsis": "The show follows the adventurous life of a nameless marijuana delivery man played by Ben Sinclair, who's simply referred to as the Guy.",
-    "review": "",
-    "recommendations": "If you like this watch...",
-    "platform": "HBO Go",
+    "myreview": "What started as a web series became so much more thanks to the help of HBO. This show features of series of vignettes connected only by having the same weed dealer. There are lots of meta HBO jokes in here and you'll get an interesting look into the life of a new person each episode. Worth the watch.",
+    "platform": {
+        "HBO Go": "https://play.hbogo.com/series/urn:hbo:series:GV6szpA6I-7KCwgEAAAAL"
+    },
     "type": "TVseen",
     "releasedate": 2016
   },
@@ -217,9 +203,10 @@ var media = [
     "rtRating": 100,
     "myRating": 10,
     "synopsis": "Two black women who are best friends navigate the pitfalls of their personal and professional lives in south Los Angeles.",
-    "myreview": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "HBO Go",
+    "myreview": "Every episode of Insecure is better than the last. The 'Broken Pussy' rap in the first episode will suck you in and get stuck in your head for weeks. Issa's character is incredibly complex and easy to relate to. This show highlights the difficulty of balancing a successful career with friendships, romantic relationships, and the fear of going broke. Insecure takes an often existential look at what really matters in your mid-late 20s with a soundtrack that is out of this world.",
+    "platform": {
+        "HBO Go": "https://play.hbogo.com/series/urn:hbo:series:GV7xdwg1cosPDWwEAAABT"
+    },
     "type": "TVseen",
     "releasedate": 2016
   },
@@ -227,13 +214,13 @@ var media = [
     "name": "Love",
     "posterImage": "images/love.jpg",
     "movieTitle": "Love",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 91,
     "myRating": 6,
     "synopsis": "Love follows nice guy Gus (Paul Rust) and brazen wild-child Mickey (Gillian Jacobs) as they navigate the exhilarations and humiliations of intimacy, commitment, love and other things they were hoping to avoid. Love is an unflinching, hilarious and excruciatingly honest take on modern relationships. Love is created, written and executive produced by Judd Apatow, Paul Rust.",
-    "review": "",
-    "recommendations": "If you like this watch...",
-    "platform": "Netflix",
+    "myreview": "Though not one of my favorites, I do think Love is an important show to watch. Love highlights the blindness of diving into what may objectively seem like a bad relationship on the outside looking in, and how easy it is to fall into (and stay in) one of these relationships.",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/80026506"
+    },
     "type": "TVseen",
     "releasedate": 2016
   },
@@ -246,7 +233,10 @@ var media = [
     "myRating": 8,
     "synopsis": "A comedy-drama following a chaste young woman who is accidentally impregnated via artificial insemination as she struggles to inform her devoutly religious family and make the right choices concerning the child. Based on the telenovela 'Juana la virgen.'",
     "review": "Jane the Virgin excels in in ability to laugh at itself. JtV poked fun at the telenovela genre while following all of the same tropes. The show stays relevant and somehow always manages to pique my interest. The #narrator will be your favorite character.",
-    "platform": "Netflix",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/80027158",
+        "CW": "http://www.cwtv.com/shows/jane-the-virgin"
+    },
     "type": "TVseen",
     "releasedate": 2014
   },
@@ -254,13 +244,13 @@ var media = [
     "name": "Masterofnone",
     "posterImage": "images/masterofnone.jpg",
     "movieTitle": "Master of None",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 100,
     "myRating": 10,
     "synopsis": "Comedy following the personal and professional challenges that face a 30-year-old New York actor, whose trials range from the immigrant experience to what pasta he should eat for dinner.",
-    "review": "Watch.The.Thanksgiving.Episode.NOW.",
-    "recommendations": "If you like this watch...",
-    "platform": "Netflix",
+    "myreview": "Watch.The.Thanksgiving.Episode.NOW. Aziz Ansari's take on modern love and the millenial struggle hits home everytime. You'll find yourself laughing, questioning the meaning of life along with the characters and probably scrolling through Yelp for your next meal. Dude likes to talk about food a lot. Though he claims to be the Master of None, Aziz artfully captures a universe where nothing is as easy as it seems. He explores the confusion and complexity of relationships in the 21st Century; platonic, romantic and familial. The Thanksgiving episode (written by Aziz Ansari and Lena Waithe) in season 2 is one of the best episides of television I have ever seen. For a painfully accurate and culturally relevant portrayal of love, sex, racism and finding joy in the work we do, look no further than Master of None.",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/80049714"
+    },
     "type": "TVseen",
     "releasedate": 2015
   },
@@ -268,13 +258,13 @@ var media = [
     "name": "Modernfamily",
     "posterImage": "images/modernfamily.jpg",
     "movieTitle": "Modern Family",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 86,
     "myRating": 8,
     "synopsis": "Synopsis of movie goes here.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "Hulu",
+    "myreview": "Modern Family is not a show I have seen all the way through, but it is a show that somehow manages to make me laugh (and cry) almost every episode. Check it out for a look at how unconventional families are becoming more conventional and some cool tidbits from 'Phil's-osophy' along the way.",
+    "platform": {
+        "Hulu": "https://www.hulu.com/modern-family"
+    },
     "type": "TVseen",
     "releasedate": 2009
   },
@@ -282,13 +272,13 @@ var media = [
     "name": "Mozartinthejungle",
     "posterImage": "images/mozartinthejungle.jpg",
     "movieTitle": "Mozart in the Jungle",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 92,
     "myRating": 7.5,
     "synopsis": "What happens behind the curtains at the symphony is just as captivating as what happens on stage. -- (C) Amazon",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "If you like this watch...",
-    "platform": "Amazon Prime",
+    "myreview": "Mozart in the Jungle takes a weird/trippy turn in the later seasons, but the early seasons are a delight. The music is beautiful and there is an interesting juxtaposition between the young struggling artist and a successful tortured soul.",
+    "platform": {
+        "Amazon Prime": "https://www.amazon.com/dp/B01NB8KCJ3?ref=sxts_129MITJ_sprk_0_0_3261527362&qid=1512344823&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=3261527362&pf_rd_r=J9QDA6N0GNQBPRMC1HDB&pd_rd_wg=RZe3U&pf_rd_s=desktop-signpost&pf_rd_t=301&pd_rd_w=25SOp&pf_rd_i=mozart+in+the+jungle&pd_rd_r=70a8114f-91b4-4c6f-9e21-7c26eedd986a"
+    },
     "type": "TVseen",
     "releasedate": 2014
   },
@@ -296,13 +286,14 @@ var media = [
     "name": "Newgirl",
     "posterImage": "images/newgirl.jpg",
     "movieTitle": "New Girl",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 93,
     "myRating": 7,
     "synopsis": "Sitcom centered on Jess Day, a sweet but naive twentysomething, who shares a loft with three single men.",
-    "review": "",
-    "recommendations": "",
-    "platform": "Netflix, Hulu",
+    "myreview": "New Girl is the kind of show that you can pick up in the middle and still enjoy. The ultimate buddy comedy, the crazy shit these friends do will make you wish you lived in an apartment with 5 friends and have you Googling all the rules to True American.",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/70196145",
+        "Hulu": "https://www.hulu.com/new-girl"
+    },
     "type": "TVseen",
     "releasedate": 2011
   },

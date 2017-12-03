@@ -1,0 +1,61 @@
+diff --git a/index.html b/index.html
+index 41bd450..1e3ff6d 100755
+--- a/index.html
++++ b/index.html
+@@ -118,7 +118,8 @@
+     <h4>Stephflix says:</h4>
+     <p class="myreview">Stephflix says:</p>
+     <br>
+-    <a href="" class="platformlink" target="_blank"> Platform Link</a>
++    <div class="platformlinks">
++    </div>
+   </div>
+ </div>
+ </div>
+diff --git a/js/allmedia.js b/js/allmedia.js
+index 9a8ba17..929fea4 100644
+--- a/js/allmedia.js
++++ b/js/allmedia.js
+@@ -18,8 +18,9 @@ var media = [
+     "synopsis": "A successful family man worries that his four children are losing touch with black culture because they are growing up in an affluent, mostly white neighborhood.",
+     "recommendations": "If you like this watch...",
+     "myreview": "If there is one thing you should know about this show it's that there is ALWAYS money in the banana stand. If Hell is other people then Arrested Development is the closest thing to Hell available to stream. The absurd antics of the Bluthe family and the ways in which their varying levels of stupidity and solipsism constantly frustrate one another makes for a enjoyable half hour of television. This show has no shortage of reusable one-liners and characters you'll come to appreciate more and more with every passing season. Except the Netflix season, you can afford to skip that.",
+-    "platform": "Netflix",
+-    "URL": "https://www.netflix.com/title/70140358",
++    "platform": {
++        "Netflix": "https://www.netflix.com/title/70140358"
++    },
+     "cast": "",
+     "type": "TVseen",
+     "releasedate": 2014
+@@ -1482,17 +1483,10 @@ function seeMore(event) {
+   $("h3.title").html($(event.target).data("title"));
+   $("p.synopsis").html($(event.target).data("synopsis"));
+   $("p.myreview").html($(event.target).data("myreview"));
+-  var URL=$(event.target).data("URL");
+-    if (URL) {
+-        $("a.platformlink").show()
+-        $("a.platformlink").html("Watch it now: " + $(event.target).data("platform"));
+-        $("a.platformlink").attr("href",$(event.target).data("URL"));
+-        $("a.platformlink").attr("class",$(event.target).data("platform")+ " platformlink"); 
+-    }
+-    else {
+-        $("a.platformlink").hide()
+-    }
+- 
++  $.each($(event.target).data("platform"), function(key, value) {
++      console.log(key);
++    $("div.platformlinks").append("<a href=\"" + value + "\">" + key + "</a>");
++  });
+ 
+   /*
+   $("iframe.src").html($(event.target).data("src"));
+@@ -1620,8 +1614,6 @@ function displayCurrentMedia() {
+       $(elem).find("button.buttonsyn").data("title", movie.movieTitle);
+        $(elem).find("button.buttonsyn").data("myreview", movie.myreview);
+        $(elem).find("button.buttonsyn").data("platform", movie.platform);
+-       $(elem).find("button.buttonsyn").data("URL", movie.URL);
+-     
+     }   
+ }
+ 
