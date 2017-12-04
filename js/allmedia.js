@@ -301,13 +301,13 @@ var media = [
     "name": "Orangeisthenewblack",
     "posterImage": "images/oitnb.jpg",
     "movieTitle": "Orange is the New Black",
-    "tags": "strong female lead, uplifting, ",
-    "rtRating": 98,
+    "rtRating": 91,
     "myRating": 9.5,
     "synopsis": "A New York woman struggles to adjust to life in a federal prison.",
-    "review": "",
-    "recommendations": "",
-    "platform": "Netflix",
+    "myreview": "At its core, OITNB exposes the prison system for what it is: a callous for-profit industry that dehumanizes inmates. The first season is Piper-centric (just push through, it's worth it) and as the show progresses, each episode explores the complex story of a new inmate. The intensity and politcal commentary of this show builds over time. Each season finale is more of a cliff hanger than the last.",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/70242311"
+    },
     "type": "TVseen",
     "releasedate": 2013
   },
@@ -315,13 +315,13 @@ var media = [
     "name": "Parenthood",
     "posterImage": "images/parenthood.jpg",
     "movieTitle": "Parenthood",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 90,
     "myRating": 9.5,
     "synopsis": "A comedy-drama following a large and imperfect family as they tackle the challenges of raising kids and starting over after setbacks. Based on the hit 1989 film.",
-    "review": "",
-    "recommendations": "",
-    "platform": "Netflix",
+    "myreview": "If you're looking for your heart strings to be played, look no further than Parenthood. Over the top at times, this show will make you wish you lived closer to family and also cry. A lot. Your favorite character will change each season and you'll hope to stay forever young.",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/70157304"
+    },
     "type": "TVseen",
     "releasedate": 2010
   },
@@ -329,13 +329,14 @@ var media = [
     "name": "Parksandrec",
     "posterImage": "images/parksandrec.jpg",
     "movieTitle": "Parks and Recreation",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 90,
     "myRating": 10,
     "synopsis": "A mockumentary following the inner workings of the Parks and Recreation Department of Pawnee, Ind. From the creators of 'The Office.'",
-    "review": "",
-    "recommendations": "",
-    "platform": "Netflix",
+    "myreview": "This is one of the most feel good shows I have ever seen. If you don't have a Leslie Knope in your life, go out and find one. Leslie is nerdy, hard working and a wonderful friend. This show highlights the absurdity of local government and gives dreamers a shot at making it. #TreatYoself",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/70143842",
+        "Hulu": "https://www.hulu.com/parks-and-recreation"
+    },
     "type": "TVseen",
     "releasedate": 2009
   },
@@ -343,13 +344,13 @@ var media = [
     "name": "sixfeetunder",
     "posterImage": "images/sixfeetunder.jpg",
     "movieTitle": "Six Feet Under",
-    "tags": "strong female lead, uplifting, ",
-    "rtRating": 100,
+    "rtRating": 97,
     "myRating": 10,
     "synopsis": "Life---and death---at a family-owned funeral home in Los Angeles plays out in this provocative, at times macabre series created by Oscar-winning screenwriter Alan Ball (`American Beauty'). A recipient of several Emmys, it's a compelling, superbly acted drama laced with considerable wit and poignancy. Each episode begins with a fresh corpse (including the clan's patriarch in the premiere), which usually has something to do with the ongoing dysfunction in and around the Fisher household.",
-    "review": "If I could give this more than a 10 I would",
-    "recommendations": "",
-    "platform": "HBO Go,",
+    "myreview": "If I could give this more than a 10 I would. Jill Soloway is a trailblazer and did things on television that few other shows have mastered since. Though the repetition of death can feel trope-y at times, this shows explores the complexity of the LGBTQ community, internalized homophobia, mental illness, drugs and addiction, racial bias, what it truly means to be a family, ethically non-monagamous relationships and a range of other unheard of topics for the early 2000s.",
+    "platform": {
+        "HBO Go,": "https://play.hbogo.com/series/urn:hbo:series:GVU2cbQuR-1FvjSoJATzx"
+    },
     "type": "TVseen",
     "releasedate": 2001
   },
@@ -357,13 +358,13 @@ var media = [
     "name": "Strangerthings",
     "posterImage": "images/strangerthings.jpg",
     "movieTitle": "Stranger Things",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 95,
     "myRating": 9,
     "synopsis": "A love letter to the '80s classics that captivated a generation, Stranger Things is set in 1983 Indiana, where a young boy vanishes into thin air. As friends, family and local police search for answers, they are drawn into an extraordinary mystery involving top-secret government experiments, terrifying supernatural forces and one very strange little girl.",
-    "review": "",
-    "recommendations": "",
-    "platform": "Netflix",
+    "myreview": "The first season of Stranger Things is a mindfuck that will keep you wanting more.",
+    "platform": {
+        "Netflix": "https://www.netflix.com/title/80057281"
+    },
     "type": "TVseen",
     "releasedate": 2016
   },
@@ -371,13 +372,13 @@ var media = [
     "name": "Thegoodplace",
     "posterImage": "images/thegoodplace.jpg",
     "movieTitle": "The Good Place",
-    "tags": "strong female lead, uplifting, ",
     "rtRating": 90,
     "myRating": 8,
     "synopsis": "A New Jersey woman enters the afterlife and tries to become a better person and make amends for past bad behavior in this comedy.",
-    "review": "This is the place where I say something eloquent and profound in an attempt to convince you that you too should see this wonderful movie!",
-    "recommendations": "",
-    "platform": "Hulu",
+    "myreview": "This show is a Forking good time. Though it lacks extreme depth, The Good Place has some surprising twists and turns and is good for a few chuckles.",
+    "platform": {
+        "Hulu": "https://www.hulu.com/the-good-place"
+    },
     "type": "TVseen",
     "releasedate": 2016
   },

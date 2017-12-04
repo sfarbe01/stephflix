@@ -87,6 +87,10 @@ h2 {
   animation: .6s zoom-in;
 }
 
+a.Netflix{
+  color:red;
+}
+
 @keyframes zoom-in {
   0% {
    transform: scale(.1);
