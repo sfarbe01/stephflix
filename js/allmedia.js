@@ -1475,9 +1475,12 @@ function seeMore(event) {
   $("h3.title").html($(event.target).data("title"));
   $("p.synopsis").html($(event.target).data("synopsis"));
   $("p.myreview").html($(event.target).data("myreview"));
+
+  $("div.platformlinks").empty();
   $.each($(event.target).data("platform"), function(key, value) {
       console.log(key);
-    $("div.platformlinks").append("<a href=\"" + value + "\">" + key + "</a>");
+    $("div.platformlinks").append("<a class='" + key + "' target='_blank' href=\"" + value + "\">Watch it on " + key + "</a>");
+    /* <a class="Netflix" target="_blank" href="https://www.netflix.com/title/70300800">Watch it on Netflix</a> */
   });
 
   /*
@@ -1619,7 +1622,7 @@ function filterPlatform(event, platform) {
   /*
   currentmedia = $.grep(media, function (item, i) { return item.platform == platform; });
   */
-  currentmedia = $.grep(currentmedia, function (item, i) { return item.platform == platform; });
+  currentmedia = $.grep(currentmedia, function (item, i) { return item.platform  && item.platform.hasOwnProperty(platform); });
     $("#all-the-movies").empty();
     displayCurrentMedia();
     event.preventDefault();

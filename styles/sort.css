@@ -18,6 +18,14 @@ a {
   color: #333;
 }
 
+a.Netflix {
+  color:red;
+}
+
+.platformslinks a {
+  color:red;
+}
+
 h2 {
   color: #333;
   padding: 10px 0;
